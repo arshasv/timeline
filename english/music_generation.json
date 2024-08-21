@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "/images/cloning.jpeg",
+        "credit": "Generated image from Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Voice Cloning",
+        "text": "<p>Experience the Future of Audio with Voice Cloning. Our advanced AI technology accurately replicates human voices, enabling you to create lifelike, personalized audio content that sounds just like the real thing.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/challenge.jpeg",
+        "credit": "JFV"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Challenges",
+        "text": "<p>Audio generation in generative AI presents unique challenges, including creating realistic and coherent soundscapes, maintaining audio quality, and ensuring diverse and contextually appropriate outputs. Overcoming these obstacles requires advanced algorithms and extensive training data to produce audio that is both engaging and accurate, pushing the boundaries of what AI can achieve in sound creation.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+    "events": [
+        {
+            "media": {
+                "url": "/images/model.jpeg",
+                "credit": "Imagen generada con Ideogram"
+            },
+            "start_date": {
+                "year": "2024",
+                "month": "04",
+                "day": "01"
+            },
+            "text": {
+                "headline": "Modelos",
+                "text": "<p></p>"
+            }
+        },
+        {
+            "media": {
+                "url": "/images/RAG.jpeg",
+                "credit": "Imagen generada con Ideogram"
+            },
+            "start_date": {
+                "year": "2024",
+                "month": "04",
+                "day": "01"
+            },
+            "text": {
+                "headline": "Generación Aumentada por Recuperación",
+                "text": "<p>La Generación Aumentada por Recuperación (RAG, por sus siglas en inglés) combina el poder de la IA con la recuperación de datos en tiempo real, lo que permite a los modelos generar contenido altamente preciso y contextualizado. Al integrar de manera fluida información actualizada de vastas fuentes de conocimiento, RAG mejora la precisión y relevancia de las salidas generadas por IA, haciéndola ideal para tareas que requieren conocimiento profundo y respuestas dinámicas.</p>"
+            }
+        },
+        {
+            "media": {
+                "url": "/images/eva.jpeg",
+                "credit": "magen generada con Ideogram"
+            },
+            "start_date": {
+                "year": "2024",
+                "month": "04",
+                "day": "01"
+            },
+            "text": {
+                "headline": "Evaluación de RAG",
+                "text": "<p>La evaluación de RAG (Generación Aumentada por Recuperación) mide la efectividad de los modelos de IA que combinan la recuperación de información con la generación de texto. Al evaluar tanto la precisión de los datos recuperados como la calidad de las respuestas generadas, la evaluación de RAG asegura que tus sistemas de IA entreguen contenido preciso y contextualmente relevante, mejorando la experiencia del usuario y la confianza.</p>"
+            }
+        },
+        {
+            "media": {
+                "url": "/images/stream.jpeg",
+                "credit": "magen generada con Ideogram"
+            },
+            "start_date": {
+                "year": "2024",
+                "month": "04",
+                "day": "17"
+            },
+            "text": {
+                "headline": "Transmisión",
+                "text": "<p>Experimenta la entrega de contenido sin interrupciones con nuestra tecnología de transmisión de texto. Transmite contenido basado en texto en tiempo real al instante, asegurando que tu audiencia se mantenga comprometida con actualizaciones dinámicas e ininterrumpidas adaptadas a sus necesidades.</p>"
+            }
+        },
+        {
+            "media": {
+                "url": "/images/challenge.jpeg",
+                "credit": "Imagen generada con Ideogram"
+            },
+            "start_date": {
+                "year": "2024",
+                "month": "04",
+                "day": "17"
+            },
+            "text": {
+                "headline": "Desafíos",
+                "text": "<p>La generación de texto en la inteligencia artificial generativa presenta varios desafíos, incluyendo mantener el contexto, asegurar la coherencia y evitar contenido sesgado o inapropiado. Abordar estos problemas requiere algoritmos avanzados y un perfeccionamiento continuo para producir texto de alta calidad, relevante y atractivo que satisfaga las diversas necesidades de los usuarios mientras se adhiere a los estándares éticos.</p>"
+            }
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "events": [
+      {
+        "media": {
+          "url": "/images/model.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Models",
+          "text": "<p></p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/RAG.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Retrival Augmented Generation",
+          "text": "<p>Retrieval-Augmented Generation (RAG) combines the power of AI with real-time data retrieval, enabling models to generate highly accurate and context-aware content. By seamlessly integrating up-to-date information from vast knowledge sources, RAG enhances the precision and relevance of AI-generated outputs, making it ideal for tasks requiring deep knowledge and dynamic responses.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/eva.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "RAG Evaluation",
+          "text": "<p>RAG (Retrieval-Augmented Generation) evaluation measures the effectiveness of AI models that combine information retrieval with text generation. By assessing both the accuracy of retrieved data and the quality of generated responses, RAG evaluation ensures that your AI systems deliver precise, contextually relevant content, enhancing user experience and trust.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/stream.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "17"
+        },
+        "text": {
+          "headline": "Streaming",
+          "text": "<p>Experience seamless content delivery with our text streaming technology. Instantly stream text-based content in real-time, ensuring your audience stays engaged with uninterrupted, dynamic updates tailored to their needs.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/challenge.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "17"
+        },
+        "text": {
+          "headline": "Challenges",
+          "text": "<p>Text generation in generative AI presents several challenges, including maintaining context, ensuring coherence, and avoiding biased or inappropriate content. Addressing these issues requires advanced algorithms and continuous refinement to produce high-quality, relevant, and engaging text that meets diverse user needs while adhering to ethical standards.</p>"
+        }
+      }
+    ]
+}

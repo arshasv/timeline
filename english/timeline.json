@@ -1,0 +1,105 @@
+{
+    "title": {
+      "media": {
+        "url": "/images/GenAI.jpeg",
+        "credit": "Generated image from stable diffusion"
+      },
+      "text": {
+        "headline": "Genesis Forge",
+        "text": "<p> Our Generative AI solutions empower you to turn your ideas into reality. With cutting-edge technology, you can innovate, create, and inspire, bringing your visions to life with unmatched ease and efficiency.</p>"
+      }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "/images/prompt.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "01",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Prompt Engineering",
+          "text": "<p>Unlock the full potential of AI with expert prompt engineering. Our approach ensures precision, efficiency, and optimal results, allowing you to maximize the impact of your AI solutions.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/LLM.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "02",
+          "day": "01"
+        },
+        "text": {
+          "headline": "LLM Architecture",
+          "text": "<p>Discover the forefront of AI innovation with advanced LLM architecture, designed to drive the future of intelligent systems. Experience the power and precision that sets the standard for tomorrow's technology.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/Text.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Text generation",
+          "text": "<p>Effortlessly unleash your creativity with AI-powered text generation. Instantly craft compelling content tailored to your needs, all in a matter of seconds.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/image.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "05",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Image generation",
+          "text": "<p>AI-driven image generation empowers you to bring your creative vision to life with unparalleled speed and precision. Whether you're an artist, designer, or innovator, our technology enables you to produce stunning visuals effortlessly, blending artistry with advanced AI to accelerate your creative process.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/audio.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "07",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Audio generation",
+          "text": "<p>Compose the Future with AI-Powered Audio Generation. Our innovative technology allows you to create personalized music effortlessly, blending your unique sound with cutting-edge AI to bring your musical vision to life.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/events.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "07",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Events",
+          "text": "<p>We are actively participating in events to enhance our innovative ideas, refine our skills, and explore real-life use cases in generative AI. These experiences are driving us to push the boundaries of what's possible and apply cutting-edge technology to solve real-world challenges.</p>"
+        }
+      }
+    ]
+  }
+  

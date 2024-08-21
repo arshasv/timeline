@@ -1,0 +1,65 @@
+{
+    "events": [
+      {
+        "media": {
+          "url": "/images/stable.jpeg",
+          "credit": "Imagen generada por Stable Diffusion"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Stable Diffusion",
+          "text": "<p>Stable Diffusion es una tecnología de IA de vanguardia que transforma indicaciones de texto en imágenes de alta calidad. Utilizando algoritmos avanzados de aprendizaje automático, genera obras de arte visualmente impresionantes y realistas a partir de descripciones simples. Ideal para creativos y empresas, Stable Diffusion ofrece posibilidades ilimitadas para la creación de contenido visual, facilitando más que nunca el dar vida a tus ideas.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/dalle.jpeg",
+          "credit": "Imagen generada por DALL-E 3"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "01"
+        },
+        "text": {
+          "headline": "DALL-E 3",
+          "text": "<p>DALL-E 3 es un modelo de IA avanzado de OpenAI diseñado para generar imágenes de alta calidad a partir de indicaciones de texto. Basado en sus predecesores, DALL-E 3 ofrece una mayor creatividad, detalle y comprensión de instrucciones complejas, permitiendo a los usuarios crear representaciones visuales impresionantes y precisas de sus ideas, ya sean escenas realistas o conceptos imaginativos.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/Ideogram.jpeg",
+          "credit": "Imagen generada por Ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Ideogram",
+          "text": "<p>Ideogram AI es una herramienta de vanguardia diseñada para transformar texto en contenido visual atractivo. Aprovechando algoritmos avanzados de IA, permite a los usuarios crear diagramas personalizados, infografías y narrativas visuales a partir de simples indicaciones de texto. Ideogram AI empodera a los usuarios para comunicar ideas complejas de manera clara y creativa, convirtiéndola en una herramienta esencial para educadores, mercadólogos y profesionales que buscan mejorar su narración visual.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/challenge.jpeg",
+          "credit": "Imagen generada por Ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "17"
+        },
+        "text": {
+          "headline": "Desafíos",
+          "text": "<p>La generación de imágenes en la IA generativa presenta desafíos únicos, como mantener la consistencia en el estilo, capturar detalles intrincados y garantizar el realismo. Equilibrar la creatividad con la precisión, manejar sesgos y gestionar las demandas computacionales son obstáculos clave. Superar estos desafíos es esencial para desbloquear todo el potencial de la creatividad visual impulsada por IA.</p>"
+        }
+      }
+    ]
+  }
+  

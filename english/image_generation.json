@@ -1,0 +1,64 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "/images/stable.jpeg",
+        "credit": "Generated image from stable diffusion"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Stable diffusion",
+        "text": "<p>Stable Diffusion is a state-of-the-art AI technology that transforms text prompts into high-quality images. Utilizing advanced machine learning algorithms, it generates visually stunning and realistic artwork from simple descriptions. Ideal for creatives and businesses, Stable Diffusion offers limitless possibilities for visual content creation, making it easier than ever to bring your ideas to life.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/dalle.jpeg",
+        "credit": "Generated image from Dalle 3"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "01"
+      },
+      "text": {
+        "headline": "DallE-3",
+        "text": "<p>DALL-E 3 is an advanced AI model by OpenAI designed to generate high-quality images from text prompts. Building on its predecessors, DALL-E 3 offers enhanced creativity, detail, and understanding of complex instructions, allowing users to create visually stunning and accurate representations of their ideas, whether they be realistic scenes or imaginative concepts.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/Ideogram.jpeg",
+        "credit": "generated image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Ideogram",
+        "text": "<p>Ideogram AI is a cutting-edge tool designed to transform text into visually engaging content. By leveraging advanced AI algorithms, it allows users to create customized diagrams, infographics, and visual narratives from simple text prompts. Ideogram AI empowers users to communicate complex ideas clearly and creatively, making it an essential tool for educators, marketers, and professionals seeking to enhance their visual storytelling.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/challenge.jpeg",
+        "credit": "JFV"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Challenges",
+        "text": "<p>Image generation in generative AI presents unique challenges, including maintaining consistency in style, capturing intricate details, and ensuring realism. Balancing creativity with accuracy, handling biases, and managing the computational demands are key hurdles. Overcoming these challenges is essential to unlocking the full potential of AI-driven visual creativity.</p>"
+      }
+    }
+  ]
+}

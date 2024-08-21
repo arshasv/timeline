@@ -1,0 +1,80 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "/images/computaion.jpeg",
+        "credit": "generated image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Computation",
+        "text": "<p>Generative AI presents significant computational challenges due to its need for vast processing power and complex algorithms. Training and deploying models require enormous amounts of data, high-performance hardware, and efficient optimization techniques. Overcoming these challenges is essential to harness the full potential of generative AI, enabling more accurate, creative, and scalable solutions.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/data.jpeg",
+        "credit": "generated image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Lack of Data",
+        "text": "<p>Lack of data presents a significant challenge in generative AI, limiting the model's ability to produce accurate and diverse outputs. Insufficient or biased data can lead to poor performance, reduced creativity, and unreliable results. Overcoming this challenge requires innovative data augmentation strategies, careful curation, and the use of synthetic data to ensure the AI generates high-quality and relevant content.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/doc.jpeg",
+        "credit": "generated image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Unavailability of tutorials and documentations",
+        "text": "<p>The rapid growth of generative AI has outpaced the availability of comprehensive tutorials and documentation, making it challenging for developers and businesses to fully harness its potential. This gap in resources can hinder innovation, limit understanding, and slow down adoption. Ensuring access to clear, up-to-date guides and documentation is essential to overcome these obstacles and unlock the true power of generative AI.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/ram.jpeg",
+        "credit": "generated image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Lack of system with RAM",
+        "text": "<p>Generative AI demands significant computational power, and inadequate RAM can become a bottleneck. Insufficient memory can lead to slower processing times, reduced model performance, and limitations in handling complex tasks. Optimizing RAM capacity is essential for unlocking the full potential of generative AI, ensuring seamless operation and more efficient results.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/gpu.jpeg",
+        "credit": "generated image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Limited access to GPU through online platforms",
+        "text": "<p>Limited access to GPUs through online platforms can be a barrier for those working with generative AI, impacting the speed and scale of creative projects. Overcoming these limitations allows for faster processing, enhanced model training, and the ability to generate high-quality content efficiently.</p>"
+      }
+    }
+
+  ]
+}

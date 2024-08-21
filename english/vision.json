@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "/images/OCR.jpeg",
+        "credit": "RAG Evaluation"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Optical Charector Recognision",
+        "text": "<p>First attempts at AI-powered text generation.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/modern_text_generation.png",
+        "credit": "JFV"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Challenges",
+        "text": "<p>State-of-the-art models generating human-like text.</p>"
+      }
+    }
+
+  ]
+}

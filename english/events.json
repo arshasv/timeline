@@ -1,0 +1,60 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "/images/faya.jpg"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "05",
+        "day": "08"
+      },
+      "text": {
+        "headline": "Innovation with Google Gemini",
+        "text": "<p>The 115th Edition of NASSCOM FAYA:80, part I of our 2-part series in collaboration with Google For Developers, hosted Google Developer Expert Tarun R. Jain, as he presented the distinct capabilities of Google’s Gemini AI and Gemma LLM. Tarun’s expertise and the insights he shared painted a whole new picture for Gemini and explained how it can be leveraged to build efficient RAG applications with Gemini</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/trans.jpeg"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "05"
+      },
+      "text": {
+        "headline": "TRANSCEND INDIA 2024",
+        "text": "<p>TRANSCEND India 2024 was a resounding success! This AI symposium brought together industry leaders, startups, and academia to explore the latest AI advancements and strategies for navigating the technological disruptions ahead. </p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/unlash.jpeg"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "20"
+      },
+      "text": {
+        "headline": "Unleashing the Power of Generative AI: Transforming Ideas into Innovation",
+        "text": "<p>This event will explore the revolutionary impact of Generative AI, bringing together industry professionals and academics to delve into the future of technology and innovation.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/ibm.jpg"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "11"
+      },
+      "text": {
+        "headline": "International GenAI Conclave",
+        "text": "<p>The advent of foundation models marks a new paradigm of AI, ushering in the era of generative AI. This era is expected to drive AI adoption, offer unmatched scalability and can easily be adapted to new scenarios and use cases.</p>"
+      }
+    }
+  ]
+}

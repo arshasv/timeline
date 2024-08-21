@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis Forge</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #343a40;
+            color: white;
+            border-bottom: 1px solid #ddd;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #language-toggle, #back-button {
+            display: flex;
+            gap: 10px;
+        }
+
+        #language-toggle button, #back-button button {
+            padding: 8px 16px;
+            font-size: 16px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        #language-toggle button:hover, #back-button button:hover {
+            background-color: #0056b3;
+        }
+
+        #back-button {
+            display: none;
+        }
+
+        /* Card styles */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            overflow: hidden;
+            width: 300px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card h2 {
+            margin: 0 0 10px 0;
+            font-size: 20px;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .card-credit {
+            font-size: 12px;
+            color: #888;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Genesis Forge</h1>
+        <div>
+            <!-- Language Toggle Buttons -->
+            <div id="language-toggle">
+                <button onclick="switchLanguage('english')">English</button>
+                <button onclick="switchLanguage('spanish')">Español</button>
+            </div>
+            <!-- Back Button -->
+            <div id="back-button">
+                <button onclick="goBack()">Back</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Card Container -->
+    <div class="card-container" id="card-container"></div>
+
+    <script type="text/javascript">
+        var previousTimelines = []; // Stack to hold previous timelines
+        var currentLanguage = "english"; // Default language
+    
+        function loadTimeline(jsonFile) {
+            $.getJSON(jsonFile, function(json) {
+                $('#card-container').empty(); // Clear existing cards
+
+                // Add title card
+                if (json.title) {
+                    var titleCard = `
+                        <div class="card">
+                            <img src="${json.title.media.url}" alt="Title Image">
+                            <div class="card-body">
+                                <h2>${json.title.text.headline}</h2>
+                                <p>${json.title.text.text}</p>
+                                <div class="card-credit">${json.title.media.credit}</div>
+                            </div>
+                        </div>
+                    `;
+                    $('#card-container').append(titleCard);
+                }
+
+                // Add event cards
+                json.events.forEach(event => {
+                    var eventCard = `
+                        <div class="card">
+                            <img src="${event.media.url}" alt="${event.text.headline}">
+                            <div class="card-body">
+                                <h2>${event.text.headline}</h2>
+                                <p>${event.text.text}</p>
+                                <div class="card-credit">${event.media.credit}</div>
+                            </div>
+                        </div>
+                    `;
+                    $('#card-container').append(eventCard);
+                });
+            });
+        }
+    
+        function switchLanguage(language) {
+            currentLanguage = language;
+            var folder = currentLanguage === 'english' ? 'english' : 'spanish';
+            var timelineFile = folder + "/timeline.json";
+    
+            loadTimeline(timelineFile);
+            previousTimelines = []; 
+            $('#back-button').hide(); 
+        }
+    
+        function timeline_json() {
+            loadTimeline(currentLanguage + "/timeline.json");
+    
+            $(document).on('click', '.card', function() {
+                var headlineText = $(this).find('h2').text().trim();
+                var folder = currentLanguage === 'english' ? 'english' : 'spanish';
+                var fileSuffix = currentLanguage === 'english' ? '.json' : '_es.json';
+    
+                var newTimeline = null;
+    
+                // Map headlines to corresponding timeline files
+                if (headlineText === "Text generation" || headlineText === "Generación de Texto") {
+                    newTimeline = folder + "/text_generation" + fileSuffix;
+                } else if (headlineText === "Image generation" || headlineText === "Generación de Imágenes") {
+                    newTimeline = folder + "/image_generation" + fileSuffix;
+                } else if (headlineText === "Audio generation" || headlineText === "Generación de Audio") {
+                    newTimeline = folder + "/music_generation" + fileSuffix;
+                } else if (headlineText === "Events" || headlineText === "Eventos") {
+                    newTimeline = folder + "/events" + fileSuffix;
+                } else if (headlineText === "Models" || headlineText === "Modelos") {
+                    newTimeline = folder + "/models" + fileSuffix;
+                } else if (headlineText === "Challenges" || headlineText === "Desafíos") {
+                    newTimeline = folder + "/challenges" + fileSuffix;
+                }
+    
+                if (newTimeline) {
+                    previousTimelines.push(folder + "/timeline.json"); // Push the current timeline onto the stack
+                    loadTimeline(newTimeline);
+                    $('#back-button').show(); // Show the back button after navigating
+                }
+            });
+        }
+    
+        function goBack() {
+            if (previousTimelines.length > 0) {
+                var previousTimeline = previousTimelines.pop(); // Pop the last timeline off the stack
+                loadTimeline(previousTimeline);
+    
+                if (previousTimelines.length === 0) {
+                    $('#back-button').hide(); // Hide the back button if no more history
+                }
+            }
+        }
+    
+        timeline_json();
+    </script>
+</body>
+</html>

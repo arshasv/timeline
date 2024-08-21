@@ -1,0 +1,35 @@
+{
+    "events": [
+      {
+        "media": {
+          "url": "/images/cloning.jpeg",
+          "credit": "Imagen generada con Ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "07",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Clonación de Voz",
+          "text": "<p>Experimenta el Futuro del Audio con la Clonación de Voz. Nuestra avanzada tecnología de IA replica con precisión las voces humanas, permitiéndote crear contenido de audio personalizado y realista que suena exactamente como la voz original.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/challenge.jpeg",
+          "credit": "Imagen generada con Ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "07",
+          "day": "17"
+        },
+        "text": {
+          "headline": "Desafíos",
+          "text": "<p>La generación de audio en la inteligencia artificial generativa presenta desafíos únicos, incluyendo la creación de paisajes sonoros realistas y coherentes, el mantenimiento de la calidad del audio y la garantía de resultados diversos y contextualmente apropiados. Superar estos obstáculos requiere algoritmos avanzados y una gran cantidad de datos de entrenamiento para producir audio que sea tanto atractivo como preciso, empujando los límites de lo que la IA puede lograr en la creación de sonido.</p>"
+        }
+      }
+    ]
+  }
+  
