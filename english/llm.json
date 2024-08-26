@@ -1,0 +1,64 @@
+{
+    "events": [
+      {
+        "media": {
+          "url": "/images/tocken.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Tocken Generation",
+          "text": "<p>Token generation in LLMs powers the foundation of AI language understanding. By breaking down text into manageable units, it enables precise, context-aware processing, ensuring your applications are both intelligent and responsive.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/gen.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Encoder only Architecture",
+          "text": "<p>Encoder Architecture in LLMs is designed to efficiently process and understand input text by capturing contextual meaning. This robust framework ensures that the model can accurately interpret complex language patterns, setting the foundation for high-quality text generation and analysis.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/lang.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Decoder only Architecture",
+          "text": "<p>Decoder architecture in Large Language Models (LLMs) powers advanced text generation by transforming input data into coherent, context-aware outputs. This sophisticated design enables the AI to understand and produce natural language, making it essential for applications like translation, summarization, and content creation. </p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/lang.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Encoder-Decoder Architecture",
+          "text": "<p>Explore the power of Encoder-Decoder architecture in Large Language Models (LLMs). This advanced framework enables precise understanding and generation of text by encoding input into a meaningful representation and decoding it into coherent and contextually relevant responses, driving cutting-edge AI applications. </p>"
+        }
+      }
+    ]
+}

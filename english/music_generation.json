@@ -2,6 +2,36 @@
   "events": [
     {
       "media": {
+        "url": "/images/tts.png",
+        "credit": "Generated image from Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Text to Speach",
+        "text": "<p>Transform written words into natural, expressive speech with our Text-to-Speech technology. Whether for accessibility, content creation, or interactive applications, our AI-driven solution delivers clear, human-like voices that bring your text to life.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/mg.png",
+        "credit": "Generated image from Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Music Gen",
+        "text": "<p>MusicGen is an AI music generation tool developed by Meta that can generate high-quality music samples from simple text prompts, with the ability to upload audio clips for extra guidance. MusicGen is a step up from previous AI music generators thanks to its innovative approach, such as having a single-stage transformer LM, as opposed to combining multiple models together. </p>"
+      }
+    },
+    {
+      "media": {
         "url": "/images/cloning.jpeg",
         "credit": "Generated image from Ideogram"
       },

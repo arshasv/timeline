@@ -1,0 +1,79 @@
+{
+    "events": [
+      {
+        "media": {
+          "url": "/images/mistral.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Mistral",
+          "text": "<p>Mistral is a state-of-the-art text generation model in the realm of generative AI. Designed for high performance and versatility, Mistral excels at producing coherent and contextually relevant text. Whether you need creative content, technical writing, or engaging dialogue, Mistral delivers with precision and fluency, setting new standards for natural language generation.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/llama.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Llama",
+          "text": "<p>Introducing the LLaMA model for text generation—an advanced solution in generative AI. Designed to deliver coherent, contextually rich text, LLaMA leverages state-of-the-art algorithms to produce high-quality, human-like language outputs. Perfect for a range of applications from creative writing to automated content creation, LLaMA transforms how you interact with AI, making it an invaluable tool for generating compelling and meaningful text.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/gpt.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "GPT",
+          "text": "<p>GPT models revolutionize text generation with advanced generative AI. By understanding context and producing coherent, relevant text, they enable seamless content creation, from engaging articles to creative writing, enhancing productivity and creativity across various applications.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/palm.jpeg",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "17"
+        },
+        "text": {
+          "headline": "Palm",
+          "text": "<p>Discover the power of the PALM model for text generation in generative AI. Leveraging advanced architecture, PALM delivers highly coherent and contextually accurate text, making it ideal for creating engaging content, automating responses, and enhancing communication. Experience the future of text generation with unmatched precision and creativity.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/challenge.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "17"
+        },
+        "text": {
+          "headline": "Challenges",
+          "text": "<p></p>"
+        }
+      }
+    ]
+}

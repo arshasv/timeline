@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "/images/model.jpeg",
+        "credit": "Generated image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Models",
+        "text": "<p>A large language model is a computational model capable of language generation or other natural language processing tasks. As language models, LLMs acquire these abilities by learning statistical relationships from vast amounts of text during a self-supervised and semi-supervised training process.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/emb.jpeg",
+        "credit": "Generated image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Embedding Models",
+        "text": "<p>Embedding models are high-dimensional vectors representing tokens in a way that captures their semantic meaning and relationships. Embeddings enable LLMs to understand context and nuances in data, whether it's text, images, or videos. The quality of embeddings significantly impacts the performance of LLMs.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/eva.jpeg",
+        "credit": "Generated image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "01"
+      },
+      "text": {
+        "headline": "RAG Evaluation",
+        "text": "<p>RAG (Retrieval-Augmented Generation) evaluation measures the effectiveness of AI models that combine information retrieval with text generation. By assessing both the accuracy of retrieved data and the quality of generated responses, RAG evaluation ensures that your AI systems deliver precise, contextually relevant content, enhancing user experience and trust.</p>"
+      }
+    }
+  ]
+}

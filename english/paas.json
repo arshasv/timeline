@@ -1,0 +1,49 @@
+{
+    "events": [
+      {
+        "media": {
+          "url": "/images/azure.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "AZURE AI",
+          "text": "<p>Azure AI for Text Generation empowers you to create high-quality, natural language content effortlessly. Leveraging advanced machine learning models, Azure AI enables businesses to generate compelling text, automate content creation, and enhance customer interactions with intelligent, context-aware responses—all seamlessly integrated into your workflows.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/vertex.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Vertex AI",
+          "text": "<p>Vertex AI for Text Generation empowers you to create high-quality, custom text content with ease. Leveraging Google’s advanced machine learning models, Vertex AI enables seamless text generation tailored to your specific needs, from creative writing to automated responses. Enhance productivity and creativity with this powerful AI-driven tool.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/bed.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "BedRock AI",
+          "text": "<p>Bedrock AI for Text Generation delivers high-quality, contextually accurate content at scale. Powered by advanced algorithms, our AI ensures that your text is not only compelling but also aligns perfectly with your brand's voice and message. Whether for marketing, storytelling, or any creative endeavor, Bedrock AI provides the foundation for seamless content creation.</p>"
+        }
+      }
+    ]
+}

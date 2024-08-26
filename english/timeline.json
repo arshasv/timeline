@@ -1,15 +1,20 @@
 {
-    "title": {
-      "media": {
-        "url": "/images/GenAI.jpeg",
-        "credit": "Generated image from stable diffusion"
-      },
-      "text": {
-        "headline": "Genesis Forge",
-        "text": "<p> Our Generative AI solutions empower you to turn your ideas into reality. With cutting-edge technology, you can innovate, create, and inspire, bringing your visions to life with unmatched ease and efficiency.</p>"
-      }
-    },
     "events": [
+      {
+        "media": {
+          "url": "/images/verigen.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "07",
+          "day": "01"
+        },
+        "text": {
+          "headline": "VeriGen",
+          "text": "<p>The Verilog Code Generation project represents a significant stride in the application of AI in the workplace, particularly for generating Verilog code for chip design Especially for the 16-bit CNN module consisting of 16-bit adder and multiplier. By integrating the GPT 3.5 Turbo model in Azure Open AI for contextually relevant responses, the chatbot is designed to Verilog code generation. This is helpful to the chip designer and verification engineers to design and verify the chip by using Verilog and deploying it to a web app.</p>"
+        }
+      },
       {
         "media": {
           "url": "/images/prompt.jpeg",
@@ -53,6 +58,51 @@
         "text": {
           "headline": "Text generation",
           "text": "<p>Effortlessly unleash your creativity with AI-powered text generation. Instantly craft compelling content tailored to your needs, all in a matter of seconds.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/RAG.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Retrieval Augmented Generation",
+          "text": "<p>Retrieval-Augmented Generation (RAG) combines the power of AI with real-time data retrieval, enabling models to generate highly accurate and context-aware content. By seamlessly integrating up-to-date information from vast knowledge sources, RAG enhances the precision and relevance of AI-generated outputs, making it ideal for tasks requiring deep knowledge and dynamic responses.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/stream.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "17"
+        },
+        "text": {
+          "headline": "Streaming",
+          "text": "<p>Experience seamless content delivery with our text streaming technology. Instantly stream text-based content in real-time, ensuring your audience stays engaged with uninterrupted, dynamic updates tailored to their needs.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/agent.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "22"
+        },
+        "text": {
+          "headline": "AI Agents",
+          "text": "<p>AI agents built on large language models control the path to solving a complex problem. They can typically act on feedback to refine their plan of action, a capability that can improve performance and help them accomplish more sophisticated tasks.</p>"
         }
       },
       {

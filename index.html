@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genesis Forge</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- 1. A link tag loading the Timeline CSS -->
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <!-- 2. A script tag loading the Timeline JavaScript -->
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         body {
@@ -119,66 +122,84 @@
     <!-- Card Container -->
     <div class="card-container" id="card-container"></div>
 
+    <!-- Timeline Embed -->
+    <div id="timeline-embed" style="width: 100%; height: 600px"></div>
+
     <script type="text/javascript">
         var previousTimelines = []; // Stack to hold previous timelines
         var currentLanguage = "english"; // Default language
-    
+
         function loadTimeline(jsonFile) {
-            $.getJSON(jsonFile, function(json) {
-                $('#card-container').empty(); // Clear existing cards
+            if (jsonFile.endsWith("timeline.json")) {
+                // Load and display as cards
+                $.getJSON(jsonFile, function(json) {
+                    $('#timeline-embed').hide(); // Hide timeline
+                    $('#card-container').show(); // Show card container
+                    $('#card-container').empty(); // Clear previous cards
 
-                // Add title card
-                if (json.title) {
-                    var titleCard = `
-                        <div class="card">
-                            <img src="${json.title.media.url}" alt="Title Image">
-                            <div class="card-body">
-                                <h2>${json.title.text.headline}</h2>
-                                <p>${json.title.text.text}</p>
-                                <div class="card-credit">${json.title.media.credit}</div>
+                    // Add title card
+                    if (json.title) {
+                        var titleCard = `
+                            <div class="card">
+                                <img src="${json.title.media.url}" alt="Title Image">
+                                <div class="card-body">
+                                    <h2>${json.title.text.headline}</h2>
+                                    <p>${json.title.text.text}</p>
+                                    <div class="card-credit">${json.title.media.credit}</div>
+                                </div>
                             </div>
-                        </div>
-                    `;
-                    $('#card-container').append(titleCard);
-                }
+                        `;
+                        $('#card-container').append(titleCard);
+                    }
 
-                // Add event cards
-                json.events.forEach(event => {
-                    var eventCard = `
-                        <div class="card">
-                            <img src="${event.media.url}" alt="${event.text.headline}">
-                            <div class="card-body">
-                                <h2>${event.text.headline}</h2>
-                                <p>${event.text.text}</p>
-                                <div class="card-credit">${event.media.credit}</div>
+                    // Add event cards
+                    json.events.forEach(event => {
+                        var eventCard = `
+                            <div class="card">
+                                <img src="${event.media.url}" alt="${event.text.headline}">
+                                <div class="card-body">
+                                    <h2>${event.text.headline}</h2>
+                                    <p>${event.text.text}</p>
+                                    <div class="card-credit">${event.media.credit}</div>
+                                </div>
                             </div>
-                        </div>
-                    `;
-                    $('#card-container').append(eventCard);
+                        `;
+                        $('#card-container').append(eventCard);
+                    });
                 });
-            });
+            } else {
+                // Load and display as timeline
+                $('#timeline-embed').show(); // Show timeline
+                $('#card-container').hide(); // Hide card container
+                $.getJSON(jsonFile, function(json) {
+                    window.timeline = new TL.Timeline('timeline-embed', json);
+                });
+            }
         }
-    
+
         function switchLanguage(language) {
             currentLanguage = language;
             var folder = currentLanguage === 'english' ? 'english' : 'spanish';
             var timelineFile = folder + "/timeline.json";
-    
+
             loadTimeline(timelineFile);
-            previousTimelines = []; 
-            $('#back-button').hide(); 
+            previousTimelines = [];
+            $('#back-button').hide();
         }
-    
+
         function timeline_json() {
             loadTimeline(currentLanguage + "/timeline.json");
-    
+
             $(document).on('click', '.card', function() {
                 var headlineText = $(this).find('h2').text().trim();
+                console.log("Card clicked: " + headlineText); // Debugging line
+                
                 var folder = currentLanguage === 'english' ? 'english' : 'spanish';
                 var fileSuffix = currentLanguage === 'english' ? '.json' : '_es.json';
-    
+                console.log("Current language folder: " + folder); // Debugging line
+                
                 var newTimeline = null;
-    
+
                 // Map headlines to corresponding timeline files
                 if (headlineText === "Text generation" || headlineText === "Generación de Texto") {
                     newTimeline = folder + "/text_generation" + fileSuffix;
@@ -188,20 +209,34 @@
                     newTimeline = folder + "/music_generation" + fileSuffix;
                 } else if (headlineText === "Events" || headlineText === "Eventos") {
                     newTimeline = folder + "/events" + fileSuffix;
+                } else if (headlineText === "Retrieval Augmented Generation" || headlineText === "Generación Aumentada por Recuperación") {
+                    newTimeline = folder + "/rag" + fileSuffix;
                 } else if (headlineText === "Models" || headlineText === "Modelos") {
                     newTimeline = folder + "/models" + fileSuffix;
                 } else if (headlineText === "Challenges" || headlineText === "Desafíos") {
                     newTimeline = folder + "/challenges" + fileSuffix;
+                } else if (headlineText === "AI Agents" || headlineText === "AI Agents") {
+                    newTimeline = folder + "/agent" + fileSuffix;
+                } else if (headlineText === "Frameworks" || headlineText === "Frameworks") {
+                    newTimeline = folder + "/framework" + fileSuffix;
+                } else if (headlineText === "Platform as Service" || headlineText === "Plataforma como Servicio") {
+                    newTimeline = folder + "/paas" + fileSuffix;
+                } else if (headlineText === "LLM Architecture" || headlineText === "Arquitectura LLM") {
+                    newTimeline = folder + "/llm" + fileSuffix;
                 }
-    
+                
+                console.log("New timeline file: " + newTimeline); // Debugging line
+                
                 if (newTimeline) {
-                    previousTimelines.push(folder + "/timeline.json"); // Push the current timeline onto the stack
+                    previousTimelines.push(currentLanguage + "/timeline.json"); // Push the current timeline onto the stack
                     loadTimeline(newTimeline);
                     $('#back-button').show(); // Show the back button after navigating
+                } else {
+                    console.log("No matching timeline found for: " + headlineText); // Debugging line
                 }
             });
         }
-    
+
         function goBack() {
             if (previousTimelines.length > 0) {
                 var previousTimeline = previousTimelines.pop(); // Pop the last timeline off the stack
@@ -215,5 +250,3 @@
     
         timeline_json();
     </script>
-</body>
-</html>

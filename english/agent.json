@@ -1,0 +1,49 @@
+{
+    "events": [
+      {
+        "media": {
+          "url": "/images/crew.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "crewai",
+          "text": "<p>CrewAI is a universal multi agent framework that allows for all agents to work together to automate tasks and solve problems.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/gen.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "AutoGen",
+          "text": "<p>AutoGen provides multi-agent conversation framework as a high-level abstraction. With this framework, one can conveniently build LLM workflows.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/lang.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "LangChain",
+          "text": "<p>LangChain provides tools and abstractions to improve the customization, accuracy, and relevancy of the information the models generate. </p>"
+        }
+      }
+    ]
+}
