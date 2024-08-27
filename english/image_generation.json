@@ -1,4 +1,14 @@
 {
+  "title": {
+    "media": {
+      "url": "/images/image.jpeg",
+      "credit": "Generated image from stable diffusion"
+    },
+    "text": {
+      "headline": "Image generation",
+      "text": "<p>AI-driven image generation empowers you to bring your creative vision to life with unparalleled speed and precision. Whether you're an artist, designer, or innovator, our technology enables you to produce stunning visuals effortlessly, blending artistry with advanced AI to accelerate your creative process.</p>"
+    }
+  },
   "events": [
     {
       "media": {
@@ -7,7 +17,7 @@
       },
       "start_date": {
         "year": "2024",
-        "month": "06",
+        "month": "05",
         "day": "01"
       },
       "text": {
@@ -22,8 +32,8 @@
       },
       "start_date": {
         "year": "2024",
-        "month": "06",
-        "day": "01"
+        "month": "05",
+        "day": "16"
       },
       "text": {
         "headline": "DallE-3",
@@ -38,7 +48,7 @@
       "start_date": {
         "year": "2024",
         "month": "06",
-        "day": "01"
+        "day": "02"
       },
       "text": {
         "headline": "Ideogram",
@@ -52,7 +62,7 @@
       },
       "start_date": {
         "year": "2024",
-        "month": "06",
+        "month": "07",
         "day": "17"
       },
       "text": {

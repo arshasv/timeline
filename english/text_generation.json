@@ -1,4 +1,14 @@
 {
+  "title": {
+    "media": {
+      "url": "/images/Text.jpeg",
+      "credit": "Generated image from stable diffusion"
+    },
+    "text": {
+      "headline": "Text Generation",
+      "text": "<p>Effortlessly unleash your creativity with AI-powered text generation. Instantly craft compelling content tailored to your needs, all in a matter of seconds.</p>"
+    }
+  },
     "events": [
       {
         "media": {
@@ -7,7 +17,7 @@
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
+          "month": "03",
           "day": "01"
         },
         "text": {
@@ -22,8 +32,8 @@
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
-          "day": "01"
+          "month": "03",
+          "day": "09"
         },
         "text": {
           "headline": "Frameworks",
@@ -37,8 +47,8 @@
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
-          "day": "01"
+          "month": "03",
+          "day": "15"
         },
         "text": {
           "headline": "Platform as Services",
@@ -52,8 +62,8 @@
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
-          "day": "17"
+          "month": "03",
+          "day": "24"
         },
         "text": {
           "headline": "Challenges",

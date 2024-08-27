@@ -1,4 +1,14 @@
 {
+  "title": {
+    "media": {
+      "url": "/images/LLM.jpeg",
+      "credit": "Generated image from stable diffusion"
+    },
+    "text": {
+      "headline": "LLM Architecture",
+      "text": "<p>Discover the forefront of AI innovation with advanced LLM architecture, designed to drive the future of intelligent systems. Experience the power and precision that sets the standard for tomorrow's technology.</p>"
+    }
+  },
     "events": [
       {
         "media": {

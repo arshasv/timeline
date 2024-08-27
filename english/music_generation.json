@@ -1,4 +1,14 @@
 {
+  "title": {
+    "media": {
+      "url": "/images/audio.jpeg",
+      "credit": "Generated image from stable diffusion"
+    },
+    "text": {
+      "headline": "Audio Generation",
+      "text": "<p>Compose the Future with AI-Powered Audio Generation. Our innovative technology allows you to create personalized music effortlessly, blending your unique sound with cutting-edge AI to bring your musical vision to life.</p>"
+    }
+  },
   "events": [
     {
       "media": {
@@ -23,7 +33,7 @@
       "start_date": {
         "year": "2024",
         "month": "07",
-        "day": "01"
+        "day": "14"
       },
       "text": {
         "headline": "Music Gen",
@@ -38,7 +48,7 @@
       "start_date": {
         "year": "2024",
         "month": "07",
-        "day": "01"
+        "day": "17"
       },
       "text": {
         "headline": "Voice Cloning",
@@ -48,12 +58,12 @@
     {
       "media": {
         "url": "/images/challenge.jpeg",
-        "credit": "JFV"
+        "credit": ""
       },
       "start_date": {
         "year": "2024",
         "month": "07",
-        "day": "17"
+        "day": "22"
       },
       "text": {
         "headline": "Challenges",

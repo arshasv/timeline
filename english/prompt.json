@@ -1,4 +1,14 @@
 {
+  "title": {
+    "media": {
+      "url": "/images/prompt.jpeg",
+      "credit": "Generated image from stable diffusion"
+    },
+    "text": {
+      "headline": "Prompt Engineering",
+      "text": "<p>Unlock the full potential of AI with expert prompt engineering. Our approach ensures precision, efficiency, and optimal results, allowing you to maximize the impact of your AI solutions.</p>"
+    }
+  },
     "events": [
       {
         "media": {
@@ -7,7 +17,7 @@
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
+          "month": "02",
           "day": "01"
         },
         "text": {

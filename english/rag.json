@@ -1,4 +1,14 @@
 {
+  "title": {
+    "media": {
+      "url": "/images/RAG.jpeg",
+      "credit": "Generated image from stable diffusion"
+    },
+    "text": {
+      "headline": "RAG",
+      "text": "<p>Retrieval-Augmented Generation (RAG) combines the power of AI with real-time data retrieval, enabling models to generate highly accurate and context-aware content. By seamlessly integrating up-to-date information from vast knowledge sources, RAG enhances the precision and relevance of AI-generated outputs, making it ideal for tasks requiring deep knowledge and dynamic responses.</p>"
+    }
+  },
   "events": [
     {
       "media": {
@@ -23,7 +33,7 @@
       "start_date": {
         "year": "2024",
         "month": "04",
-        "day": "01"
+        "day": "12"
       },
       "text": {
         "headline": "Embedding Models",
@@ -38,7 +48,7 @@
       "start_date": {
         "year": "2024",
         "month": "04",
-        "day": "01"
+        "day": "19"
       },
       "text": {
         "headline": "RAG Evaluation",

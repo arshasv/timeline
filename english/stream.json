@@ -1,0 +1,29 @@
+{
+  "title": {
+    "media": {
+      "url": "/images/str.png",
+      "credit": "Generated image from stable diffusion"
+    },
+    "text": {
+      "headline": "Sreaming",
+      "text": "<p>Experience seamless content delivery with our text streaming technology. Instantly stream text-based content in real-time, ensuring your audience stays engaged with uninterrupted, dynamic updates tailored to their needs.</p>"
+    }
+  },
+  "events": [
+      {
+        "media": {
+          "url": "/images/fast.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "07",
+          "day": "29"
+        },
+        "text": {
+          "headline": "Fast API",
+          "text": "<p>FastAPI is a modern, fast, and easy-to-use web framework for building APIs with Python.FastAPI generates interactive API documentation from your code, making development and testing more efficient.</p>"
+        }
+      }
+    ]
+}

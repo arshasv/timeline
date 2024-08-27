@@ -1,4 +1,14 @@
 {
+  "title": {
+    "media": {
+      "url": "/images/verigen.jpeg",
+      "credit": "Generated image from stable diffusion"
+    },
+    "text": {
+      "headline": "VeriGen",
+      "text": "<p>The Verilog Code Generation project represents a significant stride in the application of AI in the workplace, particularly for generating Verilog code for chip design Especially for the 16-bit CNN module consisting of 16-bit adder and multiplier. By integrating the GPT 3.5 Turbo model in Azure Open AI for contextually relevant responses, the chatbot is designed to Verilog code generation. This is helpful to the chip designer and verification engineers to design and verify the chip by using Verilog and deploying it to a web app.</p>"
+    }
+  },
     "events": [
       {
         "media": {
@@ -7,8 +17,8 @@
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
-          "day": "01"
+          "month": "01",
+          "day": "02"
         },
         "text": {
           "headline": "Frameworks",
@@ -22,8 +32,8 @@
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
-          "day": "01"
+          "month": "03",
+          "day": "21"
         },
         "text": {
           "headline": "Verilog code generation",
@@ -37,8 +47,8 @@
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
-          "day": "01"
+          "month": "05",
+          "day": "8"
         },
         "text": {
           "headline": "Openlane Integration",

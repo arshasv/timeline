@@ -1,11 +1,11 @@
 {
   "title": {
     "media": {
-      "url": "/images/agent.jpeg",
+      "url": "/images/Fine.jpeg",
       "credit": "Generated image from stable diffusion"
     },
     "text": {
-      "headline": "Agents",
+      "headline": "Fine Tuning",
       "text": "<p>AI agents built on large language models control the path to solving a complex problem. They can typically act on feedback to refine their plan of action, a capability that can improve performance and help them accomplish more sophisticated tasks.</p>"
     }
   },
@@ -21,7 +21,7 @@
           "day": "06"
         },
         "text": {
-          "headline": "crewai", 
+          "headline": "Instruction Fine-tuning", 
           "text": "<p>CrewAI is a universal multi agent framework that allows for all agents to work together to automate tasks and solve problems.</p>"
         }
       },
@@ -36,7 +36,7 @@
           "day": "11"
         },
         "text": {
-          "headline": "AutoGen",
+          "headline": "Parameter-efficient Fine-tuning",
           "text": "<p>AutoGen provides multi-agent conversation framework as a high-level abstraction. With this framework, one can conveniently build LLM workflows.</p>"
         }
       },
@@ -51,7 +51,22 @@
           "day": "23"
         },
         "text": {
-          "headline": "LangChain",
+          "headline": "Re-inforcement Learning with Human feedback",
+          "text": "<p>LangChain provides tools and abstractions to improve the customization, accuracy, and relevancy of the information the models generate. </p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/lang.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "23"
+        },
+        "text": {
+          "headline": "Re-inforcement Learning with Artifitial feedback",
           "text": "<p>LangChain provides tools and abstractions to improve the customization, accuracy, and relevancy of the information the models generate. </p>"
         }
       }
