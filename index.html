@@ -223,8 +223,12 @@
                     newTimeline = folder + "/paas" + fileSuffix;
                 } else if (headlineText === "LLM Architecture" || headlineText === "Arquitectura LLM") {
                     newTimeline = folder + "/llm" + fileSuffix;
+                }else if (headlineText === "VeriGen" || headlineText === "VeriGen") {
+                    newTimeline = folder + "/verigen" + fileSuffix;
+                }else if (headlineText === "Prompt Engineering" || headlineText === "Prompt Engineering") {
+                    newTimeline = folder + "/prompt" + fileSuffix;
                 }
-                
+
                 console.log("New timeline file: " + newTimeline); // Debugging line
                 
                 if (newTimeline) {

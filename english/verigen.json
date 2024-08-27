@@ -1,0 +1,49 @@
+{
+    "events": [
+      {
+        "media": {
+          "url": "/images/frame.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Frameworks",
+          "text": "<p>There are three primary frameworks used for loading AI models: Ollama, LM Studio, and Azure AI Studio. These platforms provide robust tools and environments to efficiently manage, deploy, and optimize AI models, catering to diverse development needs and ensuring seamless integration into your projects</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/azure.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Verilog code generation",
+          "text": "<p>Verilog code generation is seamlessly achieved using GPT-3.5 via Azure AI Studio's API, providing efficient and accurate hardware description language scripts tailored to your design needs.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/open.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Openlane Integration",
+          "text": "<p>Integrate the open-source tool OpenLane to seamlessly verify generated Verilog code and testbenches. Automate the verification process for enhanced efficiency and accuracy in your chip design workflow. </p>"
+        }
+      }
+    ]
+}

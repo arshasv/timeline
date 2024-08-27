@@ -1,0 +1,19 @@
+{
+    "events": [
+      {
+        "media": {
+          "url": "/images/princ.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Prompt Engineering Principles",
+          "text": "<p>Master the Art of Prompt Engineering with our principles, designed to optimize AI interactions. Learn how to craft precise, effective prompts that guide AI systems to deliver accurate, relevant, and high-quality outputs, enhancing your AI-driven projects.</p>"
+        }
+      }
+    ]
+}
