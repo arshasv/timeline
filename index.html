@@ -36,10 +36,11 @@
 
         #language-toggle, #back-button {
             display: flex;
+            align-items: center;
             gap: 10px;
         }
 
-        #language-toggle button, #back-button button {
+        #language-toggle select, #back-button button {
             padding: 8px 16px;
             font-size: 16px;
             border: none;
@@ -49,7 +50,7 @@
             border-radius: 4px;
         }
 
-        #language-toggle button:hover, #back-button button:hover {
+        #language-toggle select:hover, #back-button button:hover {
             background-color: #0056b3;
         }
 
@@ -107,10 +108,12 @@
     <header>
         <h1>Genesis Forge</h1>
         <div>
-            <!-- Language Toggle Buttons -->
+            <!-- Language Toggle Dropdown -->
             <div id="language-toggle">
-                <button onclick="switchLanguage('english')">English</button>
-                <button onclick="switchLanguage('spanish')">Español</button>
+                <select onchange="switchLanguage(this.value)">
+                    <option value="english">English</option>
+                    <option value="spanish">Español</option>
+                </select>
             </div>
             <!-- Back Button -->
             <div id="back-button">
@@ -230,7 +233,7 @@
                 }else if (headlineText === "Streaming" || headlineText === "Streaming") {
                     newTimeline = folder + "/stream" + fileSuffix;
                 }else if (headlineText === "FineTuning" || headlineText === "FineTuning") {
-                    newTimeline = folder + "/finetuning" + fileSuffix;
+                    newTimeline = folder + "/finetune" + fileSuffix;
                 }
 
                 console.log("New timeline file: " + newTimeline); // Debugging line
@@ -258,3 +261,5 @@
     
         timeline_json();
     </script>
+</body>
+</html>

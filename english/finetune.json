@@ -5,15 +5,15 @@
       "credit": "Generated image from stable diffusion"
     },
     "text": {
-      "headline": "Fine Tuning",
+      "headline": "Fine-Tuning",
       "text": "<p>AI agents built on large language models control the path to solving a complex problem. They can typically act on feedback to refine their plan of action, a capability that can improve performance and help them accomplish more sophisticated tasks.</p>"
     }
   },
     "events": [
       {
         "media": {
-          "url": "/images/crew.png",
-          "credit": "image from google"
+          "url": "/images/ins.jpeg",
+          "credit": "image from ideogram"
         },
         "start_date": {
           "year": "2024",
@@ -22,13 +22,13 @@
         },
         "text": {
           "headline": "Instruction Fine-tuning", 
-          "text": "<p>CrewAI is a universal multi agent framework that allows for all agents to work together to automate tasks and solve problems.</p>"
+          "text": "<p>Instruction fine-tuning is a technique that enhances the performance of AI models by training them on specific instructions or tasks. This process allows models to better understand and follow user commands, resulting in more accurate and context-aware responses. Ideal for improving customer support bots, content generation tools, and personalized digital assistants, instruction fine-tuning ensures that AI systems can perform specialized tasks with higher precision and relevance.</p>"
         }
       },
       {
         "media": {
-          "url": "/images/gen.png",
-          "credit": "image from google"
+          "url": "/images/pef.jpeg",
+          "credit": "image from goideogramogle"
         },
         "start_date": {
           "year": "2024",
@@ -37,12 +37,12 @@
         },
         "text": {
           "headline": "Parameter-efficient Fine-tuning",
-          "text": "<p>AutoGen provides multi-agent conversation framework as a high-level abstraction. With this framework, one can conveniently build LLM workflows.</p>"
+          "text": "<p>Parameter-efficient fine-tuning (PEFT) is an advanced technique that enables the adaptation of large pre-trained models to specific tasks with minimal computational resources. By only fine-tuning a small subset of the model's parameters, PEFT drastically reduces the time, memory, and data required for fine-tuning, making it ideal for deploying AI in resource-constrained environments. This approach ensures high performance while maintaining efficiency, making it an attractive solution for businesses looking to leverage AI models across multiple tasks without incurring significant costs.</p>"
         }
       },
       {
         "media": {
-          "url": "/images/lang.png",
+          "url": "/images/rlhf.jpeg",
           "credit": "image from google"
         },
         "start_date": {
@@ -52,12 +52,12 @@
         },
         "text": {
           "headline": "Re-inforcement Learning with Human feedback",
-          "text": "<p>LangChain provides tools and abstractions to improve the customization, accuracy, and relevancy of the information the models generate. </p>"
+          "text": "<p>Reinforcement Learning with Human Feedback (RLHF) is an advanced AI technique where machine learning models are trained to make decisions based on both algorithmic rewards and human guidance. This approach enhances the AI's ability to learn complex tasks by incorporating human expertise and preferences, resulting in more intuitive and effective decision-making processes. RLHF is particularly valuable in applications like personalized recommendations, autonomous systems, and natural language processing, where aligning AI behavior with human values and expectations is crucial for success. </p>"
         }
       },
       {
         "media": {
-          "url": "/images/lang.png",
+          "url": "/images/art.png",
           "credit": "image from google"
         },
         "start_date": {
@@ -67,7 +67,7 @@
         },
         "text": {
           "headline": "Re-inforcement Learning with Artifitial feedback",
-          "text": "<p>LangChain provides tools and abstractions to improve the customization, accuracy, and relevancy of the information the models generate. </p>"
+          "text": "<p>Reinforcement Learning with artificial feedback is a cutting-edge approach in machine learning that empowers systems to learn and adapt through simulated rewards and penalties. This method allows AI models to optimize decision-making processes by receiving artificial feedback in environments where real-world feedback might be scarce, costly, or slow. It's particularly effective in complex scenarios like autonomous driving, robotics, and game playing, where the AI continuously refines its strategies to achieve optimal outcomes. By leveraging artificial feedback, businesses can accelerate innovation, improve efficiency, and reduce the risks associated with real-world testing.</p>"
         }
       }
     ]

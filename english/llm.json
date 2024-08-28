@@ -17,8 +17,8 @@
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
-          "day": "01"
+          "month": "02",
+          "day": "26"
         },
         "text": {
           "headline": "Tocken Generation",
@@ -27,47 +27,62 @@
       },
       {
         "media": {
-          "url": "/images/gen.png",
-          "credit": "image from google"
+          "url": "/images/att.jpeg",
+          "credit": "image from ideogram"
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
-          "day": "01"
+          "month": "02",
+          "day": "30"
+        },
+        "text": {
+          "headline": "Attention mechanism",
+          "text": "<p>An attention mechanism is a technique used in machine learning and artificial intelligence to improve the performance of models by focusing on relevant information. It allows models to selectively attend to different parts of the input data, assigning varying degrees of importance or weight to different elements.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/en.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "03"
         },
         "text": {
           "headline": "Encoder only Architecture",
-          "text": "<p>Encoder Architecture in LLMs is designed to efficiently process and understand input text by capturing contextual meaning. This robust framework ensures that the model can accurately interpret complex language patterns, setting the foundation for high-quality text generation and analysis.</p>"
+          "text": "<p> Input is text and output is sequence of embeddings. Use cases are sequence classification (class token), token classification. It uses bidirectional attention, so the model can see forwards and backwards.</p>"
         }
       },
       {
         "media": {
-          "url": "/images/lang.png",
-          "credit": "image from google"
+          "url": "/images/de.jpeg",
+          "credit": "image from ideogram"
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
-          "day": "01"
+          "month": "03",
+          "day": "10"
         },
         "text": {
           "headline": "Decoder only Architecture",
-          "text": "<p>Decoder architecture in Large Language Models (LLMs) powers advanced text generation by transforming input data into coherent, context-aware outputs. This sophisticated design enables the AI to understand and produce natural language, making it essential for applications like translation, summarization, and content creation. </p>"
+          "text": "<p>Input is text and output is the next word (token), which is then appended to the input. Use cases are mostly text generation (autoregressive), but with prompting we can do many things including sequence classification. The attention is almost always causal (unidirectional), so the model can see only previous tokens (prefix).</p>"
         }
       },
       {
         "media": {
-          "url": "/images/lang.png",
-          "credit": "image from google"
+          "url": "/images/ende.jpeg",
+          "credit": "image from ideogram"
         },
         "start_date": {
           "year": "2024",
-          "month": "04",
-          "day": "01"
+          "month": "03",
+          "day": "19"
         },
         "text": {
           "headline": "Encoder-Decoder Architecture",
-          "text": "<p>Explore the power of Encoder-Decoder architecture in Large Language Models (LLMs). This advanced framework enables precise understanding and generation of text by encoding input into a meaningful representation and decoding it into coherent and contextually relevant responses, driving cutting-edge AI applications. </p>"
+          "text": "<p>The EncoderDecoderModel can be used to initialize a sequence-to-sequence model with any pretrained autoencoding model as the encoder and any pretrained autoregressive model as the decoder.</p>"
         }
       }
     ]
