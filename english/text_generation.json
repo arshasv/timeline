@@ -53,7 +53,7 @@
         },
         "text": {
           "headline": "Llama",
-          "text": "<p>Introducing the LLaMA model for text generation—an advanced solution in generative AI. Designed to deliver coherent, contextually rich text, LLaMA leverages state-of-the-art algorithms to produce high-quality, human-like language outputs. Perfect for a range of applications from creative writing to automated content creation, LLaMA transforms how you interact with AI, making it an invaluable tool for generating compelling and meaningful text.</p>"
+          "text": "<p>Introducing the family of LLaMA models for text generation—an advanced solution in generative AI. Designed to deliver coherent, contextually rich text, LLaMA leverages state-of-the-art algorithms to produce high-quality, human-like language outputs. Perfect for a range of applications from creative writing to automated content creation, LLaMA transforms how you interact with AI, making it an invaluable tool for generating compelling and meaningful text.</p>"
         },
         "group" : "Models"
       },
@@ -69,7 +69,7 @@
         },
         "text": {
           "headline": "GPT",
-          "text": "<p>GPT models revolutionize text generation with advanced generative AI. By understanding context and producing coherent, relevant text, they enable seamless content creation, from engaging articles to creative writing, enhancing productivity and creativity across various applications.</p>"
+          "text": "<p>Family of GPT models revolutionize text generation with advanced generative AI. By understanding context and producing coherent, relevant text, they enable seamless content creation, from engaging articles to creative writing, enhancing productivity and creativity across various applications.</p>"
         },
         "group" : "Models"
       },

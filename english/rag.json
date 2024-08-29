@@ -32,7 +32,7 @@
         },
         "start_date": {
           "year": "2024",
-          "month": "03",
+          "month": "04",
           "day": "01"
         },
         "text": {
@@ -48,23 +48,23 @@
         },
         "start_date": {
           "year": "2024",
-          "month": "03",
-          "day": "07"
+          "month": "04",
+          "day": "04"
         },
         "text": {
           "headline": "Llama",
-          "text": "<p>Introducing the LLaMA model for text generation—an advanced solution in generative AI. Designed to deliver coherent, contextually rich text, LLaMA leverages state-of-the-art algorithms to produce high-quality, human-like language outputs. Perfect for a range of applications from creative writing to automated content creation, LLaMA transforms how you interact with AI, making it an invaluable tool for generating compelling and meaningful text.</p>"
+          "text": "<p>Introducing the family of LLaMA model for text generation—an advanced solution in generative AI. Designed to deliver coherent, contextually rich text, LLaMA leverages state-of-the-art algorithms to produce high-quality, human-like language outputs. Perfect for a range of applications from creative writing to automated content creation, LLaMA transforms how you interact with AI, making it an invaluable tool for generating compelling and meaningful text.</p>"
         },
         "group" : "Models"
       },
       {
         "media": {
-          "url": "/images/gpt.png",
+          "url": "/images/gp.jpeg",
           "credit": "image from google"
         },
         "start_date": {
           "year": "2024",
-          "month": "03",
+          "month": "04",
           "day": "14"
         },
         "text": {
@@ -73,7 +73,7 @@
         },
         "group" : "Models"
       },
-    {
+      {
       "media": {
         "url": "/images/emb.jpeg",
         "credit": "Generated image from ideogram"
@@ -81,42 +81,43 @@
       "start_date": {
         "year": "2024",
         "month": "04",
-        "day": "12"
+        "day": "05"
       },
       "text": {
         "headline": "Embedding Models",
         "text": "<p>Embedding models are high-dimensional vectors representing tokens in a way that captures their semantic meaning and relationships. Embeddings enable LLMs to understand context and nuances in data, whether it's text, images, or videos. The quality of embeddings significantly impacts the performance of LLMs.</p>"
-      }
-    },
+      },
+      "group" : "Embedding Models"
+      },
       {
         "media": {
-          "url": "/images/llama.png",
-          "credit": "image from google"
+          "url": "/images/Ba.jpeg",
+          "credit": "Generated image from ideogram"
         },
         "start_date": {
           "year": "2024",
-          "month": "03",
+          "month": "04",
           "day": "07"
         },
         "text": {
           "headline": "BAAI/bge-large-en",
-          "text": "<p>Introducing the LLaMA model for text generation—an advanced solution in generative AI. Designed to deliver coherent, contextually rich text, LLaMA leverages state-of-the-art algorithms to produce high-quality, human-like language outputs. Perfect for a range of applications from creative writing to automated content creation, LLaMA transforms how you interact with AI, making it an invaluable tool for generating compelling and meaningful text.</p>"
+          "text": "<p>bge is short for BAAI general embedding.</p>"
         },
         "group" : "Embedding Models"
       },
       {
         "media": {
-          "url": "/images/gpt.png",
-          "credit": "image from google"
+          "url": "/images/be.jpeg",
+          "credit": "image from ideogram"
         },
         "start_date": {
           "year": "2024",
-          "month": "03",
+          "month": "04",
           "day": "14"
         },
         "text": {
-          "headline": "GPT",
-          "text": "<p>GPT models revolutionize text generation with advanced generative AI. By understanding context and producing coherent, relevant text, they enable seamless content creation, from engaging articles to creative writing, enhancing productivity and creativity across various applications.</p>"
+          "headline": "text-embedding-3-large",
+          "text": "<p>The text-embedding-3-small is optimized for latency and storage. On the other hand, text-embedding-3-large is a good option for higher accuracy, and we can also take advantage of the new dimensions parameter to keep the embedding at 1536 instead of the native size of 3072 without impacting the overall performance.</p>"
         },
         "group" : "Embedding Models"
       },
@@ -133,6 +134,21 @@
       "text": {
         "headline": "RAG Evaluation",
         "text": "<p>RAG (Retrieval-Augmented Generation) evaluation measures the effectiveness of AI models that combine information retrieval with text generation. By assessing both the accuracy of retrieved data and the quality of generated responses, RAG evaluation ensures that your AI systems deliver precise, contextually relevant content, enhancing user experience and trust.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/hr.jpeg",
+        "credit": "Generated image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "19"
+      },
+      "text": {
+        "headline": "HR BOT",
+        "text": "<p>The innovation office has developed a proof-of-concept (POC) project called “HR BOT” that aims to provide quick and accurate answers to questions related to HR policy. The project uses LLM Models, RAG(Retrieval augmented generation) and multi-agent conversations to create a chatbot that can interact with users in a natural and engaging way. The project demonstrates the potential of using advanced natural language processing techniques to enhance the efficiency and effectiveness of HR services.</p>"
       }
     }
   ]

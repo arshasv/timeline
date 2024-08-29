@@ -12,6 +12,21 @@
     "events": [
       {
         "media": {
+          "url": "/images/tra.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "02",
+          "day": "02"
+        },
+        "text": {
+          "headline": "Transformer Architecture",
+          "text": "<p>The architecture of Transformers stands on two pillars: the encoder and the decoder. The encoder reads and processes the input text, transforming it into a format that the model can understand. Imagine it as absorbing a sentence and breaking it down into its essence.</p>"
+        }
+      },
+      {
+        "media": {
           "url": "/images/tocken.png",
           "credit": "image from google"
         },
@@ -23,7 +38,8 @@
         "text": {
           "headline": "Tocken Generation",
           "text": "<p>Token generation in LLMs powers the foundation of AI language understanding. By breaking down text into manageable units, it enables precise, context-aware processing, ensuring your applications are both intelligent and responsive.</p>"
-        }
+        },
+        "group": "Transformer Architecture"
       },
       {
         "media": {
@@ -38,22 +54,8 @@
         "text": {
           "headline": "Attention mechanism",
           "text": "<p>An attention mechanism is a technique used in machine learning and artificial intelligence to improve the performance of models by focusing on relevant information. It allows models to selectively attend to different parts of the input data, assigning varying degrees of importance or weight to different elements.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "/images/tra.jpeg",
-          "credit": "image from ideogram"
         },
-        "start_date": {
-          "year": "2024",
-          "month": "03",
-          "day": "02"
-        },
-        "text": {
-          "headline": "Transformer Architecture",
-          "text": "<p>The architecture of Transformers stands on two pillars: the encoder and the decoder. The encoder reads and processes the input text, transforming it into a format that the model can understand. Imagine it as absorbing a sentence and breaking it down into its essence.</p>"
-        }
+        "group": "Transformer Architecture"
       },
       {
         "media": {
@@ -67,7 +69,7 @@
         },
         "text": {
           "headline": "Encoder only Architecture",
-          "text": "<p> Input is text and output is sequence of embeddings. Use cases are sequence classification (class token), token classification. It uses bidirectional attention, so the model can see forwards and backwards.</p>"
+          "text": "<p> Input is text and output is sequence of embeddings. Use cases are sequence classification (class token), token classification. It uses bidirectional attention, so the model can see forwards and backwards. Representatives of this family of models include: ALBERT, BERT, DistilBERT,ELECTRA and RoBERTa</p>"
         },
         "group": "Transformer Architecture"
       },
@@ -83,7 +85,7 @@
         },
         "text": {
           "headline": "Decoder only Architecture",
-          "text": "<p>Input is text and output is the next word (token), which is then appended to the input. Use cases are mostly text generation (autoregressive), but with prompting we can do many things including sequence classification. The attention is almost always causal (unidirectional), so the model can see only previous tokens (prefix).</p>"
+          "text": "<p>Input is text and output is the next word (token), which is then appended to the input. Use cases are mostly text generation (autoregressive), but with prompting we can do many things including sequence classification. The attention is almost always causal (unidirectional), so the model can see only previous tokens (prefix). Representatives of this family of models include: CTRL, GPT, GPT-2, Transformer XL</p>"
         },
         "group": "Transformer Architecture"
       },

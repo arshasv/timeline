@@ -69,7 +69,7 @@
           "day": "21"
         },
         "text": {
-          "headline": "GPT 3.5",
+          "headline": "GPT 3.5 Turbo",
           "text": "<p>Our platform leverages the advanced capabilities of the GPT-3.5 model to automate the generation of Verilog code and testbenches. This tool is designed to assist hardware engineers, designers, and students by quickly producing accurate and optimized Verilog code snippets for digital circuits, along with corresponding testbenches to validate the design. Whether you need to prototype, debug, or learn Verilog, our AI-driven solution simplifies the process, saving time and reducing errors in hardware design and simulation. </p>"
         },
         "group": "Verilog code generation"
@@ -101,7 +101,7 @@
           "day": "27"
         },
         "text": {
-          "headline": "codellama",
+          "headline": "codellama 34b",
           "text": "<p>Codellama streamlines the design and verification process in digital hardware development by automatically generating Verilog code and corresponding test benches. This AI-powered tool assists engineers and developers in creating efficient, error-free hardware descriptions and test environments, significantly reducing the time and effort required for manual coding and debugging. Ideal for both seasoned professionals and newcomers, Codellama accelerates the path from concept to silicon, ensuring high-quality and reliable digital designs.</p>"
         },
         "group": "Verilog code generation"
@@ -117,7 +117,7 @@
           "day": "28"
         },
         "text": {
-          "headline": "codebooga",
+          "headline": "codebooga 34b",
           "text": "<p>Effortlessly generate Verilog code and corresponding test benches with CodeBooga's powerful model. Whether you're designing digital circuits or testing your HDL designs, our tool streamlines the process, helping you to quickly create and validate your Verilog modules. Ideal for engineers, students, and professionals looking to enhance productivity and accuracy in digital design projects.</p>"
         },
         "group": "Verilog code generation"
@@ -133,7 +133,7 @@
           "day": "30"
         },
         "text": {
-          "headline": "phined-codellama",
+          "headline": "phined-codellama 34b",
           "text": "<p>Phined-CodeLlama is a cutting-edge AI model designed to streamline Verilog code and test bench generation. Tailored for hardware engineers and developers, this model automates the creation of efficient and reliable Verilog code, significantly reducing development time. Whether you’re designing digital circuits or verifying complex systems, Phined-CodeLlama ensures accuracy and optimizes your workflow, enabling faster iterations and enhanced productivity.</p>"
         },
         "group": "Verilog code generation"
