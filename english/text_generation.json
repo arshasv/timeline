@@ -27,18 +27,114 @@
       },
       {
         "media": {
+          "url": "/images/mistral.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Mistral",
+          "text": "<p>Mistral is a state-of-the-art text generation model in the realm of generative AI. Designed for high performance and versatility, Mistral excels at producing coherent and contextually relevant text. Whether you need creative content, technical writing, or engaging dialogue, Mistral delivers with precision and fluency, setting new standards for natural language generation.</p>"
+        },
+        "group" : "Models"
+      },
+      {
+        "media": {
+          "url": "/images/llama.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "07"
+        },
+        "text": {
+          "headline": "Llama",
+          "text": "<p>Introducing the LLaMA model for text generation—an advanced solution in generative AI. Designed to deliver coherent, contextually rich text, LLaMA leverages state-of-the-art algorithms to produce high-quality, human-like language outputs. Perfect for a range of applications from creative writing to automated content creation, LLaMA transforms how you interact with AI, making it an invaluable tool for generating compelling and meaningful text.</p>"
+        },
+        "group" : "Models"
+      },
+      {
+        "media": {
+          "url": "/images/gpt.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "14"
+        },
+        "text": {
+          "headline": "GPT",
+          "text": "<p>GPT models revolutionize text generation with advanced generative AI. By understanding context and producing coherent, relevant text, they enable seamless content creation, from engaging articles to creative writing, enhancing productivity and creativity across various applications.</p>"
+        },
+        "group" : "Models"
+      },
+      {
+        "media": {
+          "url": "/images/palm.jpeg",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "20"
+        },
+        "text": {
+          "headline": "Palm",
+          "text": "<p>Discover the power of the PALM model for text generation in generative AI. Leveraging advanced architecture, PALM delivers highly coherent and contextually accurate text, making it ideal for creating engaging content, automating responses, and enhancing communication. Experience the future of text generation with unmatched precision and creativity.</p>"
+        },
+        "group" : "Models"
+      },
+      {
+        "media": {
           "url": "/images/frame.png",
           "credit": "Generated image from ideogram"
         },
         "start_date": {
           "year": "2024",
           "month": "03",
-          "day": "09"
+          "day": "21"
         },
         "text": {
           "headline": "Frameworks",
           "text": "<p>Text generation frameworks empower developers to create dynamic and engaging content through AI. These frameworks provide robust tools and algorithms that generate human-like text, enabling applications ranging from automated content creation to conversational agents. By leveraging advanced natural language processing techniques, text generation frameworks streamline the process of producing high-quality text, making it easier to build intelligent, responsive, and context-aware applications.</p>"
         }
+      },
+      {
+        "media": {
+          "url": "/images/lm.jpeg",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "21"
+        },
+        "text": {
+          "headline": "LM Studio",
+          "text": "<p>LM Studio provides tools to help you with data preprocessing, such as tokenization, Removing special characters, and filtering out stop words.</p>"
+        },
+        "group" : "Frameworks"
+      },
+      {
+        "media": {
+          "url": "/images/ollama.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "24"
+        },
+        "text": {
+          "headline": "Ollama",
+          "text": "<p>Ollama's capabilities for code generation, explanation, debugging, and documentation, streamlining their development workflows and enhancing the quality of their code.</p>"
+        },
+        "group" : "Frameworks"
       },
       {
         "media": {
@@ -48,7 +144,7 @@
         "start_date": {
           "year": "2024",
           "month": "03",
-          "day": "15"
+          "day": "27"
         },
         "text": {
           "headline": "Platform as Services",
@@ -57,13 +153,61 @@
       },
       {
         "media": {
+          "url": "/images/azure.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "01"
+        },
+        "text": {
+          "headline": "AZURE AI",
+          "text": "<p>Azure AI for Text Generation empowers you to create high-quality, natural language content effortlessly. Leveraging advanced machine learning models, Azure AI enables businesses to generate compelling text, automate content creation, and enhance customer interactions with intelligent, context-aware responses—all seamlessly integrated into your workflows.</p>"
+        },
+        "group" : "Platform as Service"
+      },
+      {
+        "media": {
+          "url": "/images/vertex.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "20"
+        },
+        "text": {
+          "headline": "Vertex AI",
+          "text": "<p>Vertex AI for Text Generation empowers you to create high-quality, custom text content with ease. Leveraging Google’s advanced machine learning models, Vertex AI enables seamless text generation tailored to your specific needs, from creative writing to automated responses. Enhance productivity and creativity with this powerful AI-driven tool.</p>"
+        },
+        "group" : "Platform as Service"
+      },
+      {
+        "media": {
+          "url": "/images/bed.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "28"
+        },
+        "text": {
+          "headline": "BedRock AI",
+          "text": "<p>Bedrock AI for Text Generation delivers high-quality, contextually accurate content at scale. Powered by advanced algorithms, our AI ensures that your text is not only compelling but also aligns perfectly with your brand's voice and message. Whether for marketing, storytelling, or any creative endeavor, Bedrock AI provides the foundation for seamless content creation.</p>"
+        },
+        "group" : "Platform as Service"
+      },
+      {
+        "media": {
           "url": "/images/challenge.jpeg",
           "credit": "Generated image from ideogram"
         },
         "start_date": {
           "year": "2024",
-          "month": "03",
-          "day": "24"
+          "month": "04",
+          "day": "30"
         },
         "text": {
           "headline": "Challenges",

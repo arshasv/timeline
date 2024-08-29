@@ -12,7 +12,7 @@
     "events": [
       {
         "media": {
-          "url": "/images/frame.png",
+          "url": "/images/ollama.png",
           "credit": "image from google"
         },
         "start_date": {
@@ -21,9 +21,26 @@
           "day": "02"
         },
         "text": {
-          "headline": "Frameworks",
-          "text": "<p>There are three primary frameworks used for loading AI models: Ollama, LM Studio, and Azure AI Studio. These platforms provide robust tools and environments to efficiently manage, deploy, and optimize AI models, catering to diverse development needs and ensuring seamless integration into your projects</p>"
-        }
+          "headline": "Ollama",
+          "text": "<p> Ollama is a powerful framework designed for efficient and scalable code generation, enabling developers to automate repetitive coding tasks and streamline software development. Ideal for integrating with modern CI/CD pipelines, Ollama leverages advanced AI algorithms to generate, optimize, and refactor code snippets in various programming languages. Its intuitive interface and robust API make it easy to customize and implement across different projects, enhancing productivity while maintaining high code quality. Perfect for teams looking to accelerate development cycles, reduce errors, and focus more on creative problem-solving..</p>"
+        },
+        "group": "Frameworks"
+      },
+      {
+        "media": {
+          "url": "/images/lm.jpeg",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "01",
+          "day": "20"
+        },
+        "text": {
+          "headline": "LM Studio",
+          "text": "<p>LM Studio is a powerful framework designed to streamline the code generation process for websites. It leverages machine learning models to automatically generate high-quality, optimized code based on user inputs, reducing development time and minimizing errors. With its intuitive interface, developers can quickly prototype, customize, and deploy web components, making it ideal for both beginners and seasoned professionals. The framework supports various programming languages and seamlessly integrates with popular development tools, ensuring a smooth workflow from concept to deployment.</p>"
+        },
+        "group": "Frameworks"
       },
       {
         "media": {
@@ -38,22 +55,152 @@
         "text": {
           "headline": "Verilog code generation",
           "text": "<p>Verilog code generation is seamlessly achieved using GPT-3.5 via Azure AI Studio's API, providing efficient and accurate hardware description language scripts tailored to your design needs.</p>"
-        }
+        },
+        "group": "Verilog code generation"
       },
       {
         "media": {
-          "url": "/images/open.png",
+          "url": "/images/3.5.jpeg",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "21"
+        },
+        "text": {
+          "headline": "GPT 3.5",
+          "text": "<p>Our platform leverages the advanced capabilities of the GPT-3.5 model to automate the generation of Verilog code and testbenches. This tool is designed to assist hardware engineers, designers, and students by quickly producing accurate and optimized Verilog code snippets for digital circuits, along with corresponding testbenches to validate the design. Whether you need to prototype, debug, or learn Verilog, our AI-driven solution simplifies the process, saving time and reducing errors in hardware design and simulation. </p>"
+        },
+        "group": "Verilog code generation"
+      },
+      {
+        "media": {
+          "url": "/images/gpt.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "02"
+        },
+        "text": {
+          "headline": "GPT 4",
+          "text": "<p>Leverage the power of GPT-4 to streamline your Verilog design process. This model can generate Verilog code and corresponding testbenches, making it ideal for digital circuit designers, educators, and students. By providing high-level design specifications, GPT-4 can create robust, optimized Verilog code and testbenches, reducing development time and improving productivity. Whether you're designing simple combinational circuits or complex sequential systems, this tool ensures accuracy and efficiency in your HDL projects.</p>"
+        },
+        "group": "Verilog code generation"
+      },
+      {
+        "media": {
+          "url": "/images/pc.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "27"
+        },
+        "text": {
+          "headline": "codellama",
+          "text": "<p>Codellama streamlines the design and verification process in digital hardware development by automatically generating Verilog code and corresponding test benches. This AI-powered tool assists engineers and developers in creating efficient, error-free hardware descriptions and test environments, significantly reducing the time and effort required for manual coding and debugging. Ideal for both seasoned professionals and newcomers, Codellama accelerates the path from concept to silicon, ensuring high-quality and reliable digital designs.</p>"
+        },
+        "group": "Verilog code generation"
+      },
+      {
+        "media": {
+          "url": "/images/pc.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "28"
+        },
+        "text": {
+          "headline": "codebooga",
+          "text": "<p>Effortlessly generate Verilog code and corresponding test benches with CodeBooga's powerful model. Whether you're designing digital circuits or testing your HDL designs, our tool streamlines the process, helping you to quickly create and validate your Verilog modules. Ideal for engineers, students, and professionals looking to enhance productivity and accuracy in digital design projects.</p>"
+        },
+        "group": "Verilog code generation"
+      },
+      {
+        "media": {
+          "url": "/images/pc.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "30"
+        },
+        "text": {
+          "headline": "phined-codellama",
+          "text": "<p>Phined-CodeLlama is a cutting-edge AI model designed to streamline Verilog code and test bench generation. Tailored for hardware engineers and developers, this model automates the creation of efficient and reliable Verilog code, significantly reducing development time. Whether you’re designing digital circuits or verifying complex systems, Phined-CodeLlama ensures accuracy and optimizes your workflow, enabling faster iterations and enhanced productivity.</p>"
+        },
+        "group": "Verilog code generation"
+      },
+      {
+        "media": {
+          "url": "/images/icars.jpeg",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "22"
+        },
+        "text": {
+          "headline": "Icarus Verilog Tool",
+          "text": "<p>Icarus Verilog is intended to work mainly as a simulator, although its synthesis capabilities are improving. The Icarus Verilog compiler normally compiles a Verilog program into an executable file that can be run to perform the actual simulation.</p>"
+        },
+        "group": "Icarus"
+      },
+      {
+        "media": {
+          "url": "/images/icars.jpeg",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "24"
+        },
+        "text": {
+          "headline": "Icarus Integration",
+          "text": "<p>Integrate the open-source tool Icarus to seamlessly verify generated Verilog code and testbenches. Automate the verification process for enhanced efficiency and accuracy in your chip design workflow. </p>"
+        },
+        "group": "Icarus"
+      },
+      {
+        "media": {
+          "url": "/images/icars.jpeg",
           "credit": "image from google"
         },
         "start_date": {
           "year": "2024",
           "month": "05",
-          "day": "8"
+          "day": "02"
         },
         "text": {
-          "headline": "Openlane Integration",
-          "text": "<p>Integrate the open-source tool OpenLane to seamlessly verify generated Verilog code and testbenches. Automate the verification process for enhanced efficiency and accuracy in your chip design workflow. </p>"
-        }
+          "headline": "Icarus Automation",
+          "text": "<p>Icarus Verilog, a widely-used open-source Verilog simulation tool, can be automated using shell scripts to streamline the workflow in hardware design and verification. By leveraging shell scripts, users can automate tasks such as compiling Verilog files, running simulations, and managing outputs, making the development process more efficient. This automation reduces manual intervention, minimizes errors, and ensures consistent simulation results, making it ideal for large-scale projects and repetitive testing scenarios. Perfect for both beginners and advanced users, this approach enhances productivity in digital design projects. </p>"
+        },
+        "group": "Icarus"
+      },
+      {
+        "media": {
+          "url": "/images/ch.png",
+          "credit": "image from google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "05",
+          "day": "03"
+        },
+        "text": {
+          "headline": "Challenges",
+          "text": "<p>During the development of the project, several challenges were encountered:  The limited awareness of available open-source VHDL tools impeded the selection of suitable resources.A shortage of comprehensive tutorials and documentation made it difficult to fully understand and utilize the tools effectively. Insufficient system RAM constrained the ability to handle complex simulations and processes smoothly. Restricted access to GPU resources on online platforms hindered performance and efficiency during intensive computations.These obstacles were addressed through innovative solutions and workarounds, contributing to the overall learning and success of the project.</p>"
+        },
+        "group": "Challenges"
       }
     ]
 }
