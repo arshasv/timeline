@@ -1,65 +1,138 @@
 {
-    "events": [
-      {
-        "media": {
-          "url": "/images/stable.jpeg",
-          "credit": "Imagen generada por Stable Diffusion"
-        },
-        "start_date": {
-          "year": "2024",
-          "month": "06",
-          "day": "01"
-        },
-        "text": {
-          "headline": "Stable Diffusion",
-          "text": "<p>Stable Diffusion es una tecnología de IA de vanguardia que transforma indicaciones de texto en imágenes de alta calidad. Utilizando algoritmos avanzados de aprendizaje automático, genera obras de arte visualmente impresionantes y realistas a partir de descripciones simples. Ideal para creativos y empresas, Stable Diffusion ofrece posibilidades ilimitadas para la creación de contenido visual, facilitando más que nunca el dar vida a tus ideas.</p>"
-        }
+  "title": {
+    "media": {
+      "url": "/images/image.jpeg",
+      "credit": "Imagen generada por Stable Diffusion"
+    },
+    "text": {
+      "headline": "Generación de Imágenes",
+      "text": "<p>La generación de imágenes impulsada por IA te permite dar vida a tu visión creativa con una velocidad y precisión inigualables. Ya seas un artista, diseñador o innovador, nuestra tecnología te permite producir visuales impresionantes sin esfuerzo, combinando el arte con IA avanzada para acelerar tu proceso creativo.</p>"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "/images/stable.jpeg",
+        "credit": "Imagen generada por Stable Diffusion"
       },
-      {
-        "media": {
-          "url": "/images/dalle.jpeg",
-          "credit": "Imagen generada por DALL-E 3"
-        },
-        "start_date": {
-          "year": "2024",
-          "month": "06",
-          "day": "01"
-        },
-        "text": {
-          "headline": "DALL-E 3",
-          "text": "<p>DALL-E 3 es un modelo de IA avanzado de OpenAI diseñado para generar imágenes de alta calidad a partir de indicaciones de texto. Basado en sus predecesores, DALL-E 3 ofrece una mayor creatividad, detalle y comprensión de instrucciones complejas, permitiendo a los usuarios crear representaciones visuales impresionantes y precisas de sus ideas, ya sean escenas realistas o conceptos imaginativos.</p>"
-        }
+      "start_date": {
+        "year": "2024",
+        "month": "05",
+        "day": "01"
       },
-      {
-        "media": {
-          "url": "/images/Ideogram.jpeg",
-          "credit": "Imagen generada por Ideogram"
-        },
-        "start_date": {
-          "year": "2024",
-          "month": "06",
-          "day": "01"
-        },
-        "text": {
-          "headline": "Ideogram",
-          "text": "<p>Ideogram AI es una herramienta de vanguardia diseñada para transformar texto en contenido visual atractivo. Aprovechando algoritmos avanzados de IA, permite a los usuarios crear diagramas personalizados, infografías y narrativas visuales a partir de simples indicaciones de texto. Ideogram AI empodera a los usuarios para comunicar ideas complejas de manera clara y creativa, convirtiéndola en una herramienta esencial para educadores, mercadólogos y profesionales que buscan mejorar su narración visual.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "/images/challenge.jpeg",
-          "credit": "Imagen generada por Ideogram"
-        },
-        "start_date": {
-          "year": "2024",
-          "month": "06",
-          "day": "17"
-        },
-        "text": {
-          "headline": "Desafíos",
-          "text": "<p>La generación de imágenes en la IA generativa presenta desafíos únicos, como mantener la consistencia en el estilo, capturar detalles intrincados y garantizar el realismo. Equilibrar la creatividad con la precisión, manejar sesgos y gestionar las demandas computacionales son obstáculos clave. Superar estos desafíos es esencial para desbloquear todo el potencial de la creatividad visual impulsada por IA.</p>"
-        }
+      "text": {
+        "headline": "Stable Diffusion",
+        "text": "<p>Stable Diffusion es una tecnología de IA de última generación que transforma indicaciones de texto en imágenes de alta calidad. Utilizando algoritmos avanzados de aprendizaje automático, genera obras de arte visualmente impresionantes y realistas a partir de simples descripciones. Ideal para creativos y empresas, Stable Diffusion ofrece posibilidades ilimitadas para la creación de contenido visual, haciendo que sea más fácil que nunca dar vida a tus ideas.</p>"
       }
-    ]
-  }
-  
+    },
+    {
+      "media": {
+        "url": "/images/dalle.jpeg",
+        "credit": "Imagen generada por DALL-E 3"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "05",
+        "day": "16"
+      },
+      "text": {
+        "headline": "DALL-E 3",
+        "text": "<p>DALL-E 3 es un modelo avanzado de IA creado por OpenAI, diseñado para generar imágenes de alta calidad a partir de indicaciones de texto. Basado en sus predecesores, DALL-E 3 ofrece una mayor creatividad, detalle y comprensión de instrucciones complejas, permitiendo a los usuarios crear representaciones visuales impresionantes y precisas de sus ideas, ya sean escenas realistas o conceptos imaginativos.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/Ideogram.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "02"
+      },
+      "text": {
+        "headline": "Ideogram",
+        "text": "<p>Ideogram AI es una herramienta de vanguardia diseñada para transformar texto en contenido visualmente atractivo. Aprovechando algoritmos avanzados de IA, permite a los usuarios crear diagramas, infografías y narrativas visuales personalizadas a partir de simples indicaciones de texto. Ideogram AI empodera a los usuarios para comunicar ideas complejas de manera clara y creativa, convirtiéndose en una herramienta esencial para educadores, mercadólogos y profesionales que buscan mejorar su narrativa visual.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/adv4.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "05"
+      },
+      "text": {
+        "headline": "Ventajas",
+        "text": "<p>La generación de imágenes permite la creación rápida de visuales sin la necesidad de habilidades tradicionales de diseño gráfico. Aumenta la creatividad al permitir la experimentación con diferentes estilos y conceptos. También reduce los costos y el tiempo asociados con la producción de contenido visual.</p>"
+      },
+      "group": "Generación de Imágenes"
+    },
+    {
+      "media": {
+        "url": "/images/dis5.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "07"
+      },
+      "text": {
+        "headline": "Desventajas",
+        "text": "<p>Las principales desventajas incluyen el potencial de generar imágenes sesgadas o inapropiadas, dependiendo de los datos de entrenamiento. Los modelos de generación de imágenes también requieren recursos computacionales significativos, y los resultados a veces pueden carecer de la sutileza y el detalle del arte creado por humanos.</p>"
+      },
+      "group": "Generación de Imágenes"
+    },
+    {
+      "media": {
+        "url": "/images/lim.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "10"
+      },
+      "text": {
+        "headline": "Limitaciones",
+        "text": "<p>Las limitaciones de la generación de imágenes incluyen desafíos para generar escenas complejas con múltiples objetos, renderizar con precisión la anatomía humana y mantener la consistencia en una serie de imágenes. Los modelos también dependen en gran medida de la calidad y diversidad de los datos de entrenamiento.</p>"
+      },
+      "group": "Generación de Imágenes"
+    },
+    {
+      "media": {
+        "url": "/images/use1.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "13"
+      },
+      "text": {
+        "headline": "Casos de Uso",
+        "text": "<p>La generación de imágenes se utiliza ampliamente en industrias creativas para arte conceptual, creación de guiones gráficos y visuales de marketing. También se emplea en el comercio electrónico para la visualización de productos, en la educación para crear contenido ilustrativo y en las redes sociales para generar visuales únicos.</p>"
+      },
+      "group": "Generación de Imágenes"
+    },
+    {
+      "media": {
+        "url": "/images/challenge.jpeg",
+        "credit": "JFV"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Desafíos",
+        "text": "<p>La generación de imágenes en la IA generativa presenta desafíos únicos, como mantener la consistencia en el estilo, capturar detalles intrincados y asegurar el realismo. Equilibrar la creatividad con la precisión, manejar sesgos y gestionar las demandas computacionales son obstáculos clave. Superar estos desafíos es esencial para desbloquear el potencial completo de la creatividad visual impulsada por IA.</p>"
+      }
+    }
+  ]
+}

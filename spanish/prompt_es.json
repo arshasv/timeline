@@ -1,0 +1,95 @@
+{
+  "title": {
+    "media": {
+      "url": "/images/prompt.jpeg",
+      "credit": "Imagen generada por Stable Diffusion"
+    },
+    "text": {
+      "headline": "Ingeniería de Prompts",
+      "text": "<p>Desbloquea todo el potencial de la IA con la ingeniería de prompts experta. Nuestro enfoque garantiza precisión, eficiencia y resultados óptimos, permitiéndote maximizar el impacto de tus soluciones de IA.</p>"
+    }
+  },
+  
+  "events": [
+    {
+      "media": {
+        "url": "/images/princ.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "02",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Principios de Ingeniería de Prompts para LLM",
+        "text": "<p>El principio de los prompts, especialmente en el contexto de la interacción con modelos de IA, es vital para obtener respuestas precisas y relevantes. Organicemos y optimicemos estos principios para mejorar la claridad y eficacia en el prompting. Al aplicar sistemáticamente estos principios, puedes mejorar significativamente la efectividad de tus interacciones con modelos de IA. Este enfoque conduce a respuestas más precisas, relevantes y útiles, especialmente para tareas complejas o matizadas.</p>"
+      },
+      "group": "Principios de Ingeniería de Prompts"
+    },
+    {
+      "media": {
+        "url": "/images/cl.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "02",
+        "day": "03"
+      },
+      "text": {
+        "headline": "Instrucción Clara y Específica",
+        "text": "<p>Elaborar prompts claros y específicos ayuda a los LLMs a comprender el contexto y generar respuestas más precisas y relevantes. Los prompts ambiguos o vagos pueden llevar a salidas inconsistentes.</p>"
+      },
+      "group": "Principios de Ingeniería de Prompts"
+    },
+    {
+      "media": {
+        "url": "/images/thi.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "02",
+        "day": "07"
+      },
+      "text": {
+        "headline": "Dar Tiempo al Modelo para Pensar",
+        "text": "<p>En la ingeniería de prompts, es importante especificar pasos secuenciales y formatos de respuesta deseados para guiar eficazmente a la IA. Delimita los pasos necesarios para completar una tarea, como Paso 1 hasta Paso n, para estructurar claramente el enfoque del modelo. Define el formato de respuesta, ya sea una lista, explicación detallada o resumen, para asegurar que la salida cumpla con las expectativas. Además, instruye al modelo para reflexionar sobre varios aspectos del problema antes de entregar una solución. Fomentar esta consideración reflexiva puede resultar en respuestas más completas y matizadas.</p>"
+      },
+      "group": "Principios de Ingeniería de Prompts"
+    },
+    {
+      "media": {
+        "url": "/images/opt.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "02",
+        "day": "13"
+      },
+      "text": {
+        "headline": "Optimización de la Estrategia de Prompts",
+        "text": "<p>Optimizar una estrategia de prompting implica asegurar que los prompts sean claros y concisos, proporcionando suficiente detalle sin abrumar al modelo. Un enfoque iterativo es clave: si la respuesta inicial no es satisfactoria, refina el prompt basado en la salida y vuelve a intentarlo. Establecer un bucle de retroalimentación usando las respuestas para ajustar y mejorar continuamente la estrategia de prompting ayuda a lograr resultados más precisos y relevantes con el tiempo.</p>"
+      },
+      "group": "Principios de Ingeniería de Prompts"
+    },
+    {
+      "media": {
+        "url": "/images/cha.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "02",
+        "day": "23"
+      },
+      "text": {
+        "headline": "Desafíos",
+        "text": "<p>En la ingeniería de prompts, pueden surgir varios desafíos. Elaborar prompts que produzcan respuestas precisas y relevantes de los modelos de lenguaje grandes puede ser difícil debido a la sensibilidad del modelo a la redacción y el contexto. Asegurar claridad y especificidad es crucial, ya que los prompts vagos o ambiguos pueden llevar a salidas inconsistentes o desviadas. Además, gestionar y mitigar sesgos en los prompts es esencial para evitar resultados sesgados. La refinación iterativa a menudo es necesaria, requiriendo ajustes continuos basados en las respuestas del modelo. Equilibrar estos factores mientras se experimenta y adapta a casos de uso específicos puede hacer que la ingeniería de prompts sea un proceso complejo y exigente.</p>"
+      },
+      "group": "Principios de Ingeniería de Prompts"
+    }
+  ]
+}

@@ -1,35 +1,138 @@
 {
-    "events": [
-      {
-        "media": {
-          "url": "/images/cloning.jpeg",
-          "credit": "Imagen generada con Ideogram"
-        },
-        "start_date": {
-          "year": "2024",
-          "month": "07",
-          "day": "01"
-        },
-        "text": {
-          "headline": "Clonación de Voz",
-          "text": "<p>Experimenta el Futuro del Audio con la Clonación de Voz. Nuestra avanzada tecnología de IA replica con precisión las voces humanas, permitiéndote crear contenido de audio personalizado y realista que suena exactamente como la voz original.</p>"
-        }
+  "title": {
+    "media": {
+      "url": "/images/audio.jpeg",
+      "credit": "Imagen generada por Stable Diffusion"
+    },
+    "text": {
+      "headline": "Generación de Audio",
+      "text": "<p>Compón el futuro con la generación de audio impulsada por IA. Nuestra tecnología innovadora te permite crear música personalizada sin esfuerzo, combinando tu sonido único con IA de vanguardia para dar vida a tu visión musical.</p>"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "/images/tts.png",
+        "credit": "Imagen generada por Ideogram"
       },
-      {
-        "media": {
-          "url": "/images/challenge.jpeg",
-          "credit": "Imagen generada con Ideogram"
-        },
-        "start_date": {
-          "year": "2024",
-          "month": "07",
-          "day": "17"
-        },
-        "text": {
-          "headline": "Desafíos",
-          "text": "<p>La generación de audio en la inteligencia artificial generativa presenta desafíos únicos, incluyendo la creación de paisajes sonoros realistas y coherentes, el mantenimiento de la calidad del audio y la garantía de resultados diversos y contextualmente apropiados. Superar estos obstáculos requiere algoritmos avanzados y una gran cantidad de datos de entrenamiento para producir audio que sea tanto atractivo como preciso, empujando los límites de lo que la IA puede lograr en la creación de sonido.</p>"
-        }
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Texto a Voz",
+        "text": "<p>Transforma palabras escritas en habla natural y expresiva con nuestra tecnología de Texto a Voz. Ya sea para accesibilidad, creación de contenido o aplicaciones interactivas, nuestra solución impulsada por IA ofrece voces claras y similares a las humanas que dan vida a tu texto.</p>"
       }
-    ]
-  }
-  
+    },
+    {
+      "media": {
+        "url": "/images/mg.png",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "14"
+      },
+      "text": {
+        "headline": "Music Gen",
+        "text": "<p>MusicGen es una herramienta de generación de música por IA desarrollada por Meta que puede generar muestras de música de alta calidad a partir de simples indicaciones textuales, con la capacidad de subir clips de audio para orientación adicional. MusicGen es un avance con respecto a los generadores de música por IA anteriores gracias a su enfoque innovador, como tener un transformador LM de una sola etapa, en lugar de combinar múltiples modelos.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/cloning.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Clonación de Voz",
+        "text": "<p>Experimenta el futuro del audio con la clonación de voz. Nuestra avanzada tecnología de IA replica con precisión las voces humanas, permitiéndote crear contenido de audio realista y personalizado que suena como el real.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/adv5.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "29"
+      },
+      "text": {
+        "headline": "Ventajas",
+        "text": "<p>La generación de audio permite la creación de contenido de audio de alta calidad a gran escala, ahorrando tiempo y recursos. Permite experiencias de audio personalizadas y dinámicas, como la personalización de voces en sistemas de TTS. Además, abre nuevas posibilidades creativas en la producción musical y la creación de contenido.</p>"
+      },
+      "group": "Generación de Audio"
+    },
+    {
+      "media": {
+        "url": "/images/dis.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "08",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Desventajas",
+        "text": "<p>A pesar de sus ventajas, la generación de audio puede enfrentar problemas con la naturalidad y la expresión emocional, particularmente en los sistemas de TTS. La tecnología también puede requerir un poder computacional significativo y experiencia para producir resultados de alta calidad, limitando el acceso para proyectos más pequeños.</p>"
+      },
+      "group": "Generación de Audio"
+    },
+    {
+      "media": {
+        "url": "/images/lim2.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "08",
+        "day": "02"
+      },
+      "text": {
+        "headline": "Limitaciones",
+        "text": "<p>Las limitaciones de la generación de audio incluyen dificultades para replicar la entonación y expresividad humana, lo que puede llevar a un audio que se sienta artificial o monótono. Además, pueden surgir preocupaciones éticas sobre el uso del audio generado, especialmente en escenarios de deepfake.</p>"
+      },
+      "group": "Generación de Audio"
+    },
+    {
+      "media": {
+        "url": "/images/use.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "08",
+        "day": "03"
+      },
+      "text": {
+        "headline": "Casos de Uso",
+        "text": "<p>La generación de audio se utiliza ampliamente en asistentes de voz, servicios de atención al cliente automatizados, herramientas de accesibilidad (como lectores de pantalla) y creación de contenido (por ejemplo, podcasts, audiolibros y producción musical). También se emplea en videojuegos y entornos virtuales para crear paisajes sonoros inmersivos.</p>"
+      },
+      "group": "Generación de Audio"
+    },
+    {
+      "media": {
+        "url": "/images/challenge.jpeg",
+        "credit": ""
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "08",
+        "day": "22"
+      },
+      "text": {
+        "headline": "Desafíos",
+        "text": "<p>La generación de audio en la IA generativa presenta desafíos únicos, incluyendo la creación de paisajes sonoros realistas y coherentes, mantener la calidad del audio y asegurar salidas diversas y contextualmente apropiadas. Superar estos obstáculos requiere algoritmos avanzados y datos de entrenamiento extensos para producir audio que sea tanto atractivo como preciso, empujando los límites de lo que la IA puede lograr en la creación de sonido.</p>"
+      }
+    }
+  ]
+}

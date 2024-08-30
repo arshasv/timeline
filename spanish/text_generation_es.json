@@ -1,79 +1,218 @@
 {
-    "events": [
-        {
-            "media": {
-                "url": "/images/model.jpeg",
-                "credit": "Imagen generada con Ideogram"
-            },
-            "start_date": {
-                "year": "2024",
-                "month": "04",
-                "day": "01"
-            },
-            "text": {
-                "headline": "Modelos",
-                "text": "<p></p>"
-            }
-        },
-        {
-            "media": {
-                "url": "/images/RAG.jpeg",
-                "credit": "Imagen generada con Ideogram"
-            },
-            "start_date": {
-                "year": "2024",
-                "month": "04",
-                "day": "01"
-            },
-            "text": {
-                "headline": "Generación Aumentada por Recuperación",
-                "text": "<p>La Generación Aumentada por Recuperación (RAG, por sus siglas en inglés) combina el poder de la IA con la recuperación de datos en tiempo real, lo que permite a los modelos generar contenido altamente preciso y contextualizado. Al integrar de manera fluida información actualizada de vastas fuentes de conocimiento, RAG mejora la precisión y relevancia de las salidas generadas por IA, haciéndola ideal para tareas que requieren conocimiento profundo y respuestas dinámicas.</p>"
-            }
-        },
-        {
-            "media": {
-                "url": "/images/eva.jpeg",
-                "credit": "magen generada con Ideogram"
-            },
-            "start_date": {
-                "year": "2024",
-                "month": "04",
-                "day": "01"
-            },
-            "text": {
-                "headline": "Evaluación de RAG",
-                "text": "<p>La evaluación de RAG (Generación Aumentada por Recuperación) mide la efectividad de los modelos de IA que combinan la recuperación de información con la generación de texto. Al evaluar tanto la precisión de los datos recuperados como la calidad de las respuestas generadas, la evaluación de RAG asegura que tus sistemas de IA entreguen contenido preciso y contextualmente relevante, mejorando la experiencia del usuario y la confianza.</p>"
-            }
-        },
-        {
-            "media": {
-                "url": "/images/stream.jpeg",
-                "credit": "magen generada con Ideogram"
-            },
-            "start_date": {
-                "year": "2024",
-                "month": "04",
-                "day": "17"
-            },
-            "text": {
-                "headline": "Transmisión",
-                "text": "<p>Experimenta la entrega de contenido sin interrupciones con nuestra tecnología de transmisión de texto. Transmite contenido basado en texto en tiempo real al instante, asegurando que tu audiencia se mantenga comprometida con actualizaciones dinámicas e ininterrumpidas adaptadas a sus necesidades.</p>"
-            }
-        },
-        {
-            "media": {
-                "url": "/images/challenge.jpeg",
-                "credit": "Imagen generada con Ideogram"
-            },
-            "start_date": {
-                "year": "2024",
-                "month": "04",
-                "day": "17"
-            },
-            "text": {
-                "headline": "Desafíos",
-                "text": "<p>La generación de texto en la inteligencia artificial generativa presenta varios desafíos, incluyendo mantener el contexto, asegurar la coherencia y evitar contenido sesgado o inapropiado. Abordar estos problemas requiere algoritmos avanzados y un perfeccionamiento continuo para producir texto de alta calidad, relevante y atractivo que satisfaga las diversas necesidades de los usuarios mientras se adhiere a los estándares éticos.</p>"
-            }
-        }
-    ]
+  "title": {
+    "media": {
+      "url": "/images/Text.jpeg",
+      "credit": "Imagen generada por Stable Diffusion"
+    },
+    "text": {
+      "headline": "Generación de Texto",
+      "text": "<p>Desata tu creatividad sin esfuerzo con la generación de texto impulsada por IA. Crea instantáneamente contenido convincente adaptado a tus necesidades, todo en cuestión de segundos.</p>"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "/images/model.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Modelos",
+        "text": "<p>Un modelo de lenguaje grande es un modelo computacional capaz de generación de lenguaje u otras tareas de procesamiento de lenguaje natural. Como modelos de lenguaje, los LLM adquieren estas habilidades al aprender relaciones estadísticas a partir de grandes cantidades de texto durante un proceso de entrenamiento auto-supervisado y semi-supervisado.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/mistral.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Mistral",
+        "text": "<p>Mistral es un modelo de generación de texto de última generación en el ámbito de la IA generativa. Diseñado para un alto rendimiento y versatilidad, Mistral se destaca en la producción de texto coherente y contextualmente relevante. Ya sea que necesites contenido creativo, redacción técnica o diálogo atractivo, Mistral ofrece precisión y fluidez, estableciendo nuevos estándares para la generación de lenguaje natural.</p>"
+      },
+      "group": "Modelos"
+    },
+    {
+      "media": {
+        "url": "/images/llama.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "07"
+      },
+      "text": {
+        "headline": "Llama",
+        "text": "<p>Presentamos la familia de modelos LLaMA para la generación de texto, una solución avanzada en IA generativa. Diseñado para entregar texto coherente y contextualmente rico, LLaMA aprovecha algoritmos de última generación para producir salidas lingüísticas de alta calidad y similares a las humanas. Perfecto para una variedad de aplicaciones, desde la escritura creativa hasta la creación automatizada de contenido, LLaMA transforma cómo interactúas con la IA, convirtiéndolo en una herramienta invaluable para generar texto convincente y significativo.</p>"
+      },
+      "group": "Modelos"
+    },
+    {
+      "media": {
+        "url": "/images/gpt.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "14"
+      },
+      "text": {
+        "headline": "GPT",
+        "text": "<p>La familia de modelos GPT revoluciona la generación de texto con IA generativa avanzada. Al comprender el contexto y producir texto coherente y relevante, permiten una creación de contenido fluida, desde artículos atractivos hasta escritura creativa, mejorando la productividad y creatividad en diversas aplicaciones.</p>"
+      },
+      "group": "Modelos"
+    },
+    {
+      "media": {
+        "url": "/images/palm.jpeg",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "20"
+      },
+      "text": {
+        "headline": "Palm",
+        "text": "<p>Descubre el poder del modelo PALM para la generación de texto en IA generativa. Aprovechando una arquitectura avanzada, PALM entrega texto altamente coherente y contextualmente preciso, lo que lo hace ideal para crear contenido atractivo, automatizar respuestas y mejorar la comunicación. Experimenta el futuro de la generación de texto con una precisión y creatividad inigualables.</p>"
+      },
+      "group": "Modelos"
+    },
+    {
+      "media": {
+        "url": "/images/frame.png",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "21"
+      },
+      "text": {
+        "headline": "Frameworks",
+        "text": "<p>Los frameworks de generación de texto capacitan a los desarrolladores para crear contenido dinámico y atractivo a través de IA. Estos frameworks proporcionan herramientas robustas y algoritmos que generan texto similar al humano, habilitando aplicaciones que van desde la creación automatizada de contenido hasta agentes conversacionales. Al aprovechar técnicas avanzadas de procesamiento de lenguaje natural, los frameworks de generación de texto agilizan el proceso de producción de texto de alta calidad, facilitando la construcción de aplicaciones inteligentes, receptivas y conscientes del contexto.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/lm.jpeg",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "21"
+      },
+      "text": {
+        "headline": "LM Studio",
+        "text": "<p>LM Studio proporciona herramientas para ayudarte con el preprocesamiento de datos, como la tokenización, la eliminación de caracteres especiales y la filtración de palabras vacías.</p>"
+      },
+      "group": "Frameworks"
+    },
+    {
+      "media": {
+        "url": "/images/ollama.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "24"
+      },
+      "text": {
+        "headline": "Ollama",
+        "text": "<p>Las capacidades de Ollama para la generación de código, explicación, depuración y documentación, optimizan sus flujos de trabajo de desarrollo y mejoran la calidad de su código.</p>"
+      },
+      "group": "Frameworks"
+    },
+    {
+      "media": {
+        "url": "/images/paas.png",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "27"
+      },
+      "text": {
+        "headline": "Plataforma como Servicio",
+        "text": "<p>Desbloquea el poder de las palabras con nuestra Plataforma como Servicio para Generación de Texto. Crea contenido de alta calidad sin esfuerzo, desde artículos hasta escritura creativa, utilizando modelos de IA avanzados. Nuestra plataforma ofrece flexibilidad, escalabilidad y facilidad de integración, empoderando a tu negocio para generar texto convincente a gran escala.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/azure.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "01"
+      },
+      "text": {
+        "headline": "AZURE AI",
+        "text": "<p>Azure AI para Generación de Texto te permite crear contenido en lenguaje natural de alta calidad sin esfuerzo. Aprovechando modelos avanzados de aprendizaje automático, Azure AI permite a las empresas generar texto atractivo, automatizar la creación de contenido y mejorar las interacciones con los clientes con respuestas inteligentes y conscientes del contexto, todo integrado perfectamente en tus flujos de trabajo.</p>"
+      },
+      "group": "Plataforma como Servicio"
+    },
+    {
+      "media": {
+        "url": "/images/vertex.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "20"
+      },
+      "text": {
+        "headline": "Vertex AI",
+        "text": "<p>Vertex AI para Generación de Texto te permite crear contenido textual personalizado de alta calidad con facilidad. Aprovechando los modelos avanzados de aprendizaje automático de Google, Vertex AI permite una generación de texto adaptada a tus necesidades específicas, desde escritura creativa hasta respuestas automatizadas. Mejora la productividad y creatividad con esta poderosa herramienta impulsada por IA.</p>"
+      },
+      "group": "Plataforma como Servicio"
+    },
+    {
+      "media": {
+        "url": "/images/bed.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "28"
+      },
+      "text": {
+        "headline": "BedRock AI",
+        "text": "<p>Bedrock AI para Generación de Texto ofrece contenido de alta calidad y contextualmente preciso a gran escala. Impulsado por algoritmos avanzados, nuestra IA asegura que tu texto no solo sea convincente sino que también se alinee perfectamente con la voz y el mensaje de tu marca. Ya sea para marketing, narración de historias o cualquier esfuerzo creativo, Bedrock AI proporciona la base para una creación de contenido sin fisuras.</p>"
+      },
+      "group": "Plataforma como Servicio"
+    },
+    {
+      "media": {
+        "url": "/images/challenge.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "30"
+      },
+      "text": {
+        "headline": "Desafíos",
+        "text": "<p>La generación de texto en IA generativa presenta varios desafíos, incluyendo el mantenimiento del contexto, la garantía de coherencia y la evitación de contenido sesgado o inapropiado. Abordar estos problemas requiere algoritmos avanzados y un refinamiento continuo para producir texto de alta calidad, relevante y atractivo que satisfaga las diversas necesidades de los usuarios mientras se adhiere a estándares éticos.</p>"
+      }
+    }
+  ]
 }

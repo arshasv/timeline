@@ -1,109 +1,169 @@
 {
-    "events": [
-        {
-            "media": {
-              "url": "/images/verigen.jpeg",
-              "credit": "Imagen generada por ideogram"
-            },
-            "start_date": {
-              "year": "2024",
-              "month": "07",
-              "day": "01"
-            },
-            "text": {
-              "headline": "VeriGen",
-              "text": "<p>El proyecto de Generación de Código Verilog representa un avance significativo en la aplicación de la IA en el lugar de trabajo, especialmente en la generación de código Verilog para el diseño de chips, en particular para el módulo CNN de 16 bits que consta de un sumador y multiplicador de 16 bits. Al integrar el modelo GPT 3.5 Turbo en Azure Open AI para respuestas contextualmente relevantes, el chatbot está diseñado para la generación de código Verilog. Esto es útil para los diseñadores de chips y los ingenieros de verificación para diseñar y verificar el chip utilizando Verilog y desplegarlo en una aplicación web.</p>"
-            }
-          },          
-        {
-            "media": {
-                "url": "/images/prompt.jpeg",
-                "credit": "Imagen generada por ideogram"
-            },
-            "start_date": {
-                "year": "2024",
-                "month": "01",
-                "day": "01"
-            },
-            "text": {
-                "headline": "Ingeniería de Prompts",
-                "text": "<p>Desbloquea el potencial completo de la IA con la ingeniería de prompts experta. Nuestro enfoque garantiza precisión, eficiencia y resultados óptimos, permitiéndote maximizar el impacto de tus soluciones de IA.</p>"
-            }
-        },
-        {
-            "media": {
-                "url": "/images/LLM.jpeg",
-                "credit": "Imagen generada por ideogram"
-            },
-            "start_date": {
-                "year": "2024",
-                "month": "02",
-                "day": "01"
-            },
-            "text": {
-                "headline": "Arquitectura LLM",
-                "text": "<p>Descubre la vanguardia de la innovación en IA con la arquitectura avanzada LLM, diseñada para impulsar el futuro de los sistemas inteligentes. Experimenta el poder y la precisión que establece el estándar para la tecnología del mañana.</p>"
-            }
-        },
-        {
-            "media": {
-                "url": "/images/Text.jpeg",
-                "credit": "Imagen generada por ideogram"
-            },
-            "start_date": {
-                "year": "2024",
-                "month": "03",
-                "day": "01"
-            },
-            "text": {
-                "headline": "Generación de Texto",
-                "text": "<p>Desata tu creatividad sin esfuerzo con la generación de texto impulsada por IA. Crea instantáneamente contenido convincente adaptado a tus necesidades, todo en cuestión de segundos.</p>"
-            }
-        },
-        {
-            "media": {
-                "url": "/images/image.jpeg",
-                "credit": "Imagen generada por ideogram"
-            },
-            "start_date": {
-                "year": "2024",
-                "month": "05",
-                "day": "01"
-            },
-            "text": {
-                "headline": "Generación de Imágenes",
-                "text": "<p>La generación de imágenes impulsada por IA te permite dar vida a tu visión creativa con una velocidad y precisión inigualables. Ya seas un artista, diseñador o innovador, nuestra tecnología te permite producir visuales impresionantes sin esfuerzo, combinando el arte con la IA avanzada para acelerar tu proceso creativo.</p>"
-            }
-        },
-        {
-            "media": {
-                "url": "/images/audio.jpeg",
-                "credit": "Imagen generada por ideogram"
-            },
-            "start_date": {
-                "year": "2024",
-                "month": "07",
-                "day": "01"
-            },
-            "text": {
-                "headline": "Generación de Audio",
-                "text": "<p>Compón el futuro con la generación de audio impulsada por IA. Nuestra tecnología innovadora te permite crear música personalizada sin esfuerzo, combinando tu sonido único con la IA de vanguardia para dar vida a tu visión musical.</p>"
-            }
-        },
-        {
-            "media": {
-                "url": "/images/events.jpeg",
-                "credit": "Imagen generada por ideogram"
-            },
-            "start_date": {
-                "year": "2024",
-                "month": "07",
-                "day": "01"
-            },
-            "text": {
-                "headline": "Eventos",
-                "text": "<p>Participamos activamente en eventos para mejorar nuestras ideas innovadoras, perfeccionar nuestras habilidades y explorar casos de uso reales en IA generativa. Estas experiencias nos impulsan a superar los límites de lo posible y aplicar tecnología de vanguardia para resolver desafíos del mundo real.</p>"
-            }
-        }
-    ]
+  "events": [
+    {
+      "media": {
+        "url": "/images/verigen.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "01"
+      },
+      "text": {
+        "headline": "VeriGen",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/prompt.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "01",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Ingeniería de Prompts",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/LLM.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "02",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Arquitectura de LLM",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/Text.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Generación de Texto",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/RAG.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Generación Aumentada por Recuperación",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/stream.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Streaming",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/agent.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "22"
+      },
+      "text": {
+        "headline": "Agentes de IA",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/Fine.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "29"
+      },
+      "text": {
+        "headline": "Ajuste Fino",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/image.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "05",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Generación de Imágenes",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/audio.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Generación de Audio",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/events.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Eventos",
+        "text": "<p></p>"
+      }
+    }
+  ]
 }

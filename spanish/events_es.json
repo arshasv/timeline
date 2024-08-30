@@ -1,61 +1,70 @@
 {
-    "events": [
-      {
-        "media": {
-          "url": "/images/faya.jpg"
-        },
-        "start_date": {
-          "year": "2024",
-          "month": "05",
-          "day": "08"
-        },
-        "text": {
-          "headline": "Innovación con Google Gemini",
-          "text": "<p>La 115ª Edición del NASSCOM FAYA:80, parte I de nuestra serie de 2 partes en colaboración con Google For Developers, contó con la participación del Experto en Desarrolladores de Google, Tarun R. Jain, quien presentó las capacidades distintivas de la IA Gemini de Google y el LLM Gemma. La experiencia de Tarun y los conocimientos que compartió pintaron una imagen completamente nueva de Gemini y explicaron cómo se puede aprovechar para construir aplicaciones RAG eficientes con Gemini.</p>"
-        }
+  "title": {
+    "media": {
+      "url": "/images/events.jpeg",
+      "credit": "Imagen generada por stable diffusion"
+    },
+    "text": {
+      "headline": "Eventos",
+      "text": "<p>Estamos participando activamente en eventos para mejorar nuestras ideas innovadoras, perfeccionar nuestras habilidades y explorar casos de uso en la vida real en la inteligencia artificial generativa. Estas experiencias nos están impulsando a superar los límites de lo que es posible y aplicar tecnología de vanguardia para resolver desafíos del mundo real.</p>"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "/images/faya.jpg"
       },
-      {
-        "media": {
-          "url": "/images/trans.jpeg"
-        },
-        "start_date": {
-          "year": "2024",
-          "month": "06",
-          "day": "05"
-        },
-        "text": {
-          "headline": "TRANSCEND INDIA 2024",
-          "text": "<p>¡TRANSCEND India 2024 fue un gran éxito! Este simposio de IA reunió a líderes de la industria, startups y académicos para explorar los últimos avances en IA y estrategias para navegar por las disrupciones tecnológicas que se avecinan.</p>"
-        }
+      "start_date": {
+        "year": "2024",
+        "month": "05",
+        "day": "08"
       },
-      {
-        "media": {
-          "url": "/images/unlash.jpeg"
-        },
-        "start_date": {
-          "year": "2024",
-          "month": "06",
-          "day": "20"
-        },
-        "text": {
-          "headline": "Desatando el Poder de la IA Generativa: Transformando Ideas en Innovación",
-          "text": "<p>Este evento explorará el impacto revolucionario de la IA Generativa, reuniendo a profesionales de la industria y académicos para profundizar en el futuro de la tecnología y la innovación.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "/images/ibm.jpg"
-        },
-        "start_date": {
-          "year": "2024",
-          "month": "07",
-          "day": "11"
-        },
-        "text": {
-          "headline": "Conclave Internacional GenAI",
-          "text": "<p>La llegada de los modelos fundacionales marca un nuevo paradigma de IA, abriendo la era de la IA generativa. Se espera que esta era impulse la adopción de la IA, ofrezca una escalabilidad sin igual y pueda adaptarse fácilmente a nuevos escenarios y casos de uso.</p>"
-        }
+      "text": {
+        "headline": "Innovación con Google Gemini",
+        "text": "<p>La 115ª edición de NASSCOM FAYA:80, parte I de nuestra serie de 2 partes en colaboración con Google For Developers, contó con la participación del experto en Google Developer, Tarun R. Jain, quien presentó las capacidades distintivas de Google’s Gemini AI y Gemma LLM. La experiencia y las ideas que Tarun compartió pintaron una imagen completamente nueva de Gemini y explicaron cómo se puede aprovechar para construir aplicaciones RAG eficientes con Gemini.</p>"
       }
-    ]
-  }
-  
+    },
+    {
+      "media": {
+        "url": "/images/trans.jpeg"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "05"
+      },
+      "text": {
+        "headline": "TRANSCEND INDIA 2024",
+        "text": "<p>¡TRANSCEND India 2024 fue un éxito rotundo! Este simposio de IA reunió a líderes de la industria, startups y académicos para explorar los últimos avances en IA y estrategias para navegar las disrupciones tecnológicas que se avecinan.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/unlash.jpeg"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "20"
+      },
+      "text": {
+        "headline": "Desatando el Poder de la IA Generativa: Transformando Ideas en Innovación",
+        "text": "<p>Este evento explorará el impacto revolucionario de la IA generativa, reuniendo a profesionales de la industria y académicos para profundizar en el futuro de la tecnología y la innovación.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/ibm.jpg"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "11"
+      },
+      "text": {
+        "headline": "Conclave Internacional de GenAI",
+        "text": "<p>La llegada de los modelos fundacionales marca un nuevo paradigma de IA, inaugurando la era de la IA generativa. Se espera que esta era impulse la adopción de la IA, ofrezca una escalabilidad inigualable y pueda adaptarse fácilmente a nuevos escenarios y casos de uso.</p>"
+      }
+    }
+  ]
+}

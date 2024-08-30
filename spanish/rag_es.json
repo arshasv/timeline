@@ -1,0 +1,155 @@
+{
+  "title": {
+    "media": {
+      "url": "/images/RAG.jpeg",
+      "credit": "Imagen generada por Stable Diffusion"
+    },
+    "text": {
+      "headline": "RAG",
+      "text": "<p>La Generación Aumentada por Recuperación (RAG) combina el poder de la IA con la recuperación de datos en tiempo real, permitiendo a los modelos generar contenido altamente preciso y consciente del contexto. Al integrar de manera fluida información actualizada de vastas fuentes de conocimiento, RAG mejora la precisión y relevancia de las salidas generadas por IA, haciéndolo ideal para tareas que requieren un conocimiento profundo y respuestas dinámicas.</p>"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "/images/model.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Modelos",
+        "text": "<p>Un modelo de lenguaje grande es un modelo computacional capaz de generación de lenguaje u otras tareas de procesamiento de lenguaje natural. Como modelos de lenguaje, los LLM adquieren estas habilidades aprendiendo relaciones estadísticas de grandes cantidades de texto durante un proceso de entrenamiento auto-supervisado y semi-supervisado.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/mistral.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Mistral",
+        "text": "<p>Mistral es un modelo de generación de texto de última generación en el ámbito de la IA generativa. Diseñado para un alto rendimiento y versatilidad, Mistral se destaca en la producción de texto coherente y contextualmente relevante. Ya sea que necesites contenido creativo, escritura técnica o diálogo atractivo, Mistral ofrece precisión y fluidez, estableciendo nuevos estándares para la generación de lenguaje natural.</p>"
+      },
+      "group": "Modelos"
+    },
+    {
+      "media": {
+        "url": "/images/llama.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "04"
+      },
+      "text": {
+        "headline": "Llama",
+        "text": "<p>Presentamos la familia del modelo LLaMA para generación de texto: una solución avanzada en IA generativa. Diseñado para ofrecer texto coherente y contextualizado, LLaMA aprovecha algoritmos de última generación para producir salidas de lenguaje humano de alta calidad. Perfecto para una variedad de aplicaciones, desde escritura creativa hasta creación de contenido automatizado, LLaMA transforma la forma en que interactúas con la IA, convirtiéndolo en una herramienta invaluable para generar texto atractivo y significativo.</p>"
+      },
+      "group": "Modelos"
+    },
+    {
+      "media": {
+        "url": "/images/gp.jpeg",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "05"
+      },
+      "text": {
+        "headline": "GPT",
+        "text": "<p>La familia de modelos GPT revoluciona la generación de texto con avanzada IA generativa. Al comprender el contexto y producir texto coherente y relevante, permiten una creación de contenido fluida, desde artículos atractivos hasta escritura creativa, mejorando la productividad y creatividad en diversas aplicaciones.</p>"
+      },
+      "group": "Modelos"
+    },
+    {
+      "media": {
+        "url": "/images/emb.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "06"
+      },
+      "text": {
+        "headline": "Modelos de Embedding",
+        "text": "<p>Los modelos de embedding son vectores de alta dimensión que representan tokens de una manera que captura su significado semántico y relaciones. Los embeddings permiten a los LLMs entender el contexto y matices en datos, ya sea texto, imágenes o videos. La calidad de los embeddings impacta significativamente en el rendimiento de los LLMs.</p>"
+      },
+      "group": "Modelos de Embedding"
+    },
+    {
+      "media": {
+        "url": "/images/Ba.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "07"
+      },
+      "text": {
+        "headline": "BAAI/bge-large-en",
+        "text": "<p>bge es la abreviatura de BAAI general embedding.</p>"
+      },
+      "group": "Modelos de Embedding"
+    },
+    {
+      "media": {
+        "url": "/images/be.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "14"
+      },
+      "text": {
+        "headline": "text-embedding-3-large",
+        "text": "<p>El text-embedding-3-small está optimizado para latencia y almacenamiento. Por otro lado, el text-embedding-3-large es una buena opción para mayor precisión, y también podemos aprovechar el nuevo parámetro de dimensiones para mantener el embedding en 1536 en lugar del tamaño nativo de 3072 sin afectar el rendimiento general.</p>"
+      },
+      "group": "Modelos de Embedding"
+    },
+    {
+      "media": {
+        "url": "/images/eva.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "19"
+      },
+      "text": {
+        "headline": "Evaluación de RAG",
+        "text": "<p>La evaluación de RAG (Generación Aumentada por Recuperación) mide la efectividad de los modelos de IA que combinan recuperación de información con generación de texto. Al evaluar tanto la precisión de los datos recuperados como la calidad de las respuestas generadas, la evaluación de RAG asegura que tus sistemas de IA entreguen contenido preciso y contextualizado, mejorando la experiencia y confianza del usuario.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/hr.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "19"
+      },
+      "text": {
+        "headline": "HR BOT",
+        "text": "<p>La oficina de innovación ha desarrollado un proyecto de prueba de concepto (POC) llamado “HR BOT” que tiene como objetivo proporcionar respuestas rápidas y precisas a preguntas relacionadas con la política de recursos humanos. El proyecto utiliza Modelos LLM, RAG (Generación Aumentada por Recuperación) y conversaciones multi-agente para crear un chatbot que pueda interactuar con los usuarios de manera natural y atractiva. El proyecto demuestra el potencial del uso de técnicas avanzadas de procesamiento de lenguaje natural para mejorar la eficiencia y efectividad de los servicios de RRHH.</p>"
+      }
+    }
+  ]
+}

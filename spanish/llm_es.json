@@ -1,0 +1,141 @@
+{
+  "title": {
+    "media": {
+      "url": "/images/LLM.jpeg",
+      "credit": "Imagen generada por Stable Diffusion"
+    },
+    "text": {
+      "headline": "Arquitectura LLM",
+      "text": "<p>Descubre la vanguardia de la innovación en IA con una arquitectura LLM avanzada, diseñada para impulsar el futuro de los sistemas inteligentes. Experimenta el poder y la precisión que marcan el estándar de la tecnología del mañana.</p>"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "/images/tra.jpeg",
+        "credit": "Imagen de Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "02",
+        "day": "02"
+      },
+      "text": {
+        "headline": "Arquitectura de Transformadores",
+        "text": "<p>La arquitectura de los Transformadores se basa en dos pilares: el codificador y el decodificador. El codificador lee y procesa el texto de entrada, transformándolo en un formato que el modelo pueda entender. Imagínalo como si absorbiera una oración y la descompusiera en su esencia.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/tocken.png",
+          "credit": "Imagen de Google"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "02",
+          "day": "26"
+        },
+        "text": {
+          "headline": "Generación de Tokens",
+          "text": "<p>La generación de tokens en los LLMs sustenta la base de la comprensión del lenguaje por parte de la IA. Al descomponer el texto en unidades manejables, permite un procesamiento preciso y consciente del contexto, asegurando que tus aplicaciones sean tanto inteligentes como receptivas.</p>"
+        },
+        "group": "Arquitectura de Transformadores"
+      },
+      {
+        "media": {
+          "url": "/images/att.jpeg",
+          "credit": "Imagen de Ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "02",
+          "day": "28"
+        },
+        "text": {
+          "headline": "Mecanismo de Atención",
+          "text": "<p>Un mecanismo de atención es una técnica utilizada en el aprendizaje automático y la inteligencia artificial para mejorar el rendimiento de los modelos al centrarse en la información relevante. Permite que los modelos atiendan selectivamente a diferentes partes de los datos de entrada, asignando diferentes grados de importancia o peso a diferentes elementos.</p>"
+        },
+        "group": "Arquitectura de Transformadores"
+      },
+      {
+        "media": {
+          "url": "/images/en.jpeg",
+          "credit": "Imagen de Ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "03"
+        },
+        "text": {
+          "headline": "Arquitectura Solo Codificador",
+          "text": "<p>La entrada es texto y la salida es una secuencia de incrustaciones. Los casos de uso son la clasificación de secuencias (token de clase), clasificación de tokens. Utiliza atención bidireccional, por lo que el modelo puede ver hacia adelante y hacia atrás. Los representantes de esta familia de modelos incluyen: ALBERT, BERT, DistilBERT, ELECTRA y RoBERTa.</p>"
+        },
+        "group": "Arquitectura de Transformadores"
+      },
+      {
+        "media": {
+          "url": "/images/de.jpeg",
+          "credit": "Imagen de Ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "10"
+        },
+        "text": {
+          "headline": "Arquitectura Solo Decodificador",
+          "text": "<p>La entrada es texto y la salida es la siguiente palabra (token), que luego se agrega a la entrada. Los casos de uso son principalmente la generación de texto (autoregresivo), pero con indicaciones podemos hacer muchas cosas, incluida la clasificación de secuencias. La atención casi siempre es causal (unidireccional), por lo que el modelo solo puede ver tokens anteriores (prefijo). Los representantes de esta familia de modelos incluyen: CTRL, GPT, GPT-2, Transformer XL.</p>"
+        },
+        "group": "Arquitectura de Transformadores"
+      },
+      {
+        "media": {
+          "url": "/images/ende.jpeg",
+          "credit": "Imagen de Ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "19"
+        },
+        "text": {
+          "headline": "Arquitectura Codificador-Decodificador",
+          "text": "<p>El modelo EncoderDecoder se puede usar para inicializar un modelo de secuencia a secuencia con cualquier modelo de autocodificación preentrenado como codificador y cualquier modelo autoregresivo preentrenado como decodificador.</p>"
+        },
+        "group": "Arquitectura de Transformadores"
+      },
+      {
+        "media": {
+          "url": "/images/diff.jpeg",
+          "credit": "Imagen de Ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "03",
+          "day": "27"
+        },
+        "text": {
+          "headline": "Arquitectura de Difusión",
+          "text": "<p>Los modelos de difusión son una familia de modelos de redes neuronales que consideran la incrustación como una pista para restaurar una imagen a partir de píxeles aleatorios. Los modelos de Stable Audio son modelos de difusión latente que constan de algunas partes diferentes, similares a Stable Diffusion: un autoencoder variacional (VAE), un codificador de texto y un modelo de difusión condicionado basado en U-Net.</p>"
+        },
+        "group": "Arquitectura de Difusión"
+      },
+      {
+        "media": {
+          "url": "/images/chal.jpeg",
+          "credit": "Imagen de Ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "04",
+          "day": "02"
+        },
+        "text": {
+          "headline": "Desafíos",
+          "text": "<p>Aprender la arquitectura de LLM (Modelo de Lenguaje Grande) presenta varios desafíos. Comprender los detalles intrincados del diseño del modelo requiere un profundo conocimiento de los principios de las redes neuronales y de las técnicas de procesamiento del lenguaje natural. La gestión de los recursos computacionales es otro obstáculo, ya que el entrenamiento y ajuste fino de los LLMs demandan un poder de procesamiento y memoria significativos. Además, navegar por la complejidad de la sintonización de hiperparámetros y asegurar la generalización del modelo sin sobreajustarlo puede ser desalentador. Equilibrar el rendimiento del modelo con consideraciones éticas, como el sesgo y la equidad, añade otra capa de complejidad para dominar la arquitectura LLM. Estos desafíos requieren una combinación de experiencia técnica, gestión de recursos y adaptación continua a las mejores prácticas emergentes en el campo.</p>"
+        },
+        "group": "Desafíos"
+      }
+    ]
+}

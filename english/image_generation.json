@@ -57,6 +57,70 @@
     },
     {
       "media": {
+        "url": "/images/adv4.jpeg",
+        "credit": "image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "05"
+      },
+      "text": {
+        "headline": "Advantages",
+        "text": "<p>Image generation allows for the rapid creation of visuals without the need for traditional graphic design skills. It enhances creativity by enabling experimentation with different styles and concepts. It also reduces costs and time associated with producing visual content.</p>"
+      },
+      "group": "Image Generation"
+    },
+    {
+      "media": {
+        "url": "/images/dis5.jpeg",
+        "credit": "image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "07"
+      },
+      "text": {
+        "headline": "Disadvantages",
+        "text": "<p>The main disadvantages include the potential for generating biased or inappropriate images, depending on the training data. Image generation models also require significant computational resources, and the results can sometimes lack the nuance and detail of human-created artwork.</p>"
+      },
+      "group": "Image Generation"
+    },
+    {
+      "media": {
+        "url": "/images/lim.jpeg",
+        "credit": "image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "10"
+      },
+      "text": {
+        "headline": "Limitations",
+        "text": "<p>Limitations of image generation include challenges in generating complex scenes with multiple objects, accurately rendering human anatomy, and maintaining consistency across a series of images. The models also rely heavily on the quality and diversity of the training data.</p>"
+      },
+      "group": "Image Generation"
+    },
+    {
+      "media": {
+        "url": "/images/use1.jpeg",
+        "credit": "image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "13"
+      },
+      "text": {
+        "headline": "Use Cases",
+        "text": "<p>Image generation is widely used in creative industries for concept art, storyboarding, and marketing visuals. It’s also employed in e-commerce for product visualization, in education for creating illustrative content, and in social media for generating unique visuals.</p>"
+      },
+      "group": "Image Generation"
+    },
+    {
+      "media": {
         "url": "/images/challenge.jpeg",
         "credit": "JFV"
       },

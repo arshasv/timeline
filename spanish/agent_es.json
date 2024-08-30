@@ -1,0 +1,59 @@
+{
+  "title": {
+    "media": {
+      "url": "/images/agent.jpeg",
+      "credit": "Imagen generada por stable diffusion"
+    },
+    "text": {
+      "headline": "Agentes",
+      "text": "<p>Los agentes de IA construidos sobre modelos de lenguaje grandes controlan el camino para resolver un problema complejo. Los agentes pueden entender el lenguaje natural, tomar decisiones y realizar acciones para completar tareas automáticamente. Por lo general, pueden actuar sobre la retroalimentación para refinar su plan de acción, una capacidad que puede mejorar el rendimiento y ayudarles a realizar tareas más sofisticadas.</p>"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "/images/crew.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "06"
+      },
+      "text": {
+        "headline": "CrewAI", 
+        "text": "<p>CrewAI es un marco universal de agentes múltiples que permite a todos los agentes trabajar juntos para automatizar tareas y resolver problemas. CrewAI es un marco de orquestación de agentes múltiples de código abierto creado por João Moura. Este marco basado en Python aprovecha la colaboración de la inteligencia artificial (IA) al orquestar agentes autónomos que desempeñan roles y que trabajan juntos como un conjunto cohesivo o 'tripulación' para completar tareas.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/gen.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "11"
+      },
+      "text": {
+        "headline": "AutoGen",
+        "text": "<p>AutoGen es un marco de programación de código abierto para construir agentes de IA y facilitar la cooperación entre varios agentes para resolver tareas. AutoGen tiene como objetivo proporcionar un marco fácil de usar y flexible para acelerar el desarrollo y la investigación en IA agente, como PyTorch para el aprendizaje profundo.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/lang.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "23"
+      },
+      "text": {
+        "headline": "LangGraph",
+        "text": "<p>LangGraph es un marco de orquestación con estado que brinda un control adicional a los flujos de trabajo de los agentes. LangGraph te permite definir flujos que involucran ciclos, esenciales para la mayoría de las arquitecturas de agentes, lo que lo diferencia de las soluciones basadas en DAG. Como un marco de muy bajo nivel, proporciona un control detallado sobre tanto el flujo como el estado de tu aplicación, crucial para crear agentes confiables.</p>"
+      }
+    }
+  ]
+}

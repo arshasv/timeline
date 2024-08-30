@@ -27,18 +27,162 @@
       },
       {
         "media": {
-          "url": "/images/pef.jpeg",
-          "credit": "image from goideogramogle"
+          "url": "/images/adv1.jpeg",
+          "credit": "image from ideogram"
         },
         "start_date": {
           "year": "2024",
           "month": "06",
-          "day": "11"
+          "day": "07"
         },
         "text": {
-          "headline": "Parameter-efficient Fine-tuning",
+          "headline": "Advantages", 
+          "text": "<p>The key advantage of instruction fine-tuning is its ability to enhance model performance on specific tasks by improving its understanding of task-specific language and context. It also allows for customization, making the model more adept at handling niche or specialized domains, leading to more reliable outputs.</p>"
+        },
+        "group" : "Instruction fine-tuning"
+      },
+      {
+        "media": {
+          "url": "/images/dis1.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "08"
+        },
+        "text": {
+          "headline": "Disadvantages", 
+          "text": "<p>Instruction fine-tuning can be resource-intensive, requiring substantial data and computational power. It may also lead to overfitting, where the model becomes too tailored to the fine-tuning data, potentially losing its generalization ability. Additionally, finding high-quality, task-specific datasets can be challenging.</p>"
+        },
+        "group" : "Instruction fine-tuning"
+      },
+      {
+        "media": {
+          "url": "/images/ins1.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "10"
+        },
+        "text": {
+          "headline": "Ideal Use Cases", 
+          "text": "<p>Instruction fine-tuning is ideal for scenarios where high accuracy in specialized tasks is required, such as customer support bots, medical diagnosis tools, or any application where precise task execution is critical. It’s also beneficial for adapting models to specific industries or domains.</p>"
+        },
+        "group" : "Instruction fine-tuning"
+      },
+      {
+        "media": {
+          "url": "/images/pre3.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "12"
+        },
+        "text": {
+          "headline": "Prerequisites", 
+          "text": "<p>Before embarking on instruction fine-tuning, it’s essential to have a well-prepared dataset with clear, task-specific instructions and examples. Additionally, access to sufficient computational resources, such as GPUs, is necessary for the fine-tuning process. Familiarity with machine learning and fine-tuning frameworks is also recommended.</p>"
+        },
+        "group" : "Instruction fine-tuning"
+      },
+      {
+        "media": {
+          "url": "/images/pef.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "14"
+        },
+        "text": {
+          "headline": "Parameter-efficient Fine-tuning (PEFT)",
           "text": "<p>Parameter-efficient fine-tuning (PEFT) is an advanced technique that enables the adaptation of large pre-trained models to specific tasks with minimal computational resources. By only fine-tuning a small subset of the model's parameters, PEFT drastically reduces the time, memory, and data required for fine-tuning, making it ideal for deploying AI in resource-constrained environments. This approach ensures high performance while maintaining efficiency, making it an attractive solution for businesses looking to leverage AI models across multiple tasks without incurring significant costs.</p>"
         }
+      },
+      {
+        "media": {
+          "url": "/images/meth.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "15"
+        },
+        "text": {
+          "headline": "PEFT Methods",
+          "text": "<p>PEFT includes techniques such as Adapters, Low-Rank Adaptation (LoRA), Prefix Tuning, and Prompt Tuning. These methods allow for efficient fine-tuning by modifying specific parts of the model rather than the entire model.</p>"
+        },
+        "group": "PEFT"
+      },
+      {
+        "media": {
+          "url": "/images/use2.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "16"
+        },
+        "text": {
+          "headline": "Ideal Use Cases",
+          "text": "<p>PEFT is ideal for scenarios where task-specific adjustments are needed without extensive computational overhead. It’s especially useful for domain-specific NLP tasks, where minor adjustments can lead to significant performance improvements.</p>"
+        },
+        "group": "PEFT"
+      },
+      {
+        "media": {
+          "url": "/images/adv2.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "17"
+        },
+        "text": {
+          "headline": "Advantages",
+          "text": "<p>PEFT offers computational savings, reduces memory usage, and allows for quicker fine-tuning with fewer resources. It also maintains the base model’s generalization ability while focusing on task-specific improvements.</p>"
+        },
+        "group": "PEFT"
+      },
+      {
+        "media": {
+          "url": "/images/dis2.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "18"
+        },
+        "text": {
+          "headline": "Disadvantages",
+          "text": "<p>The main disadvantages of PEFT include potential suboptimal performance compared to full fine-tuning and the need for careful selection of parameters to fine-tune to avoid degrading the model's capabilities.</p>"
+        },
+        "group": "PEFT"
+      },
+      {
+        "media": {
+          "url": "/images/pre.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "19"
+        },
+        "text": {
+          "headline": "Prerequisites",
+          "text": "<p>PEFT requires a pre-trained LLM, knowledge of the specific task or domain, and familiarity with the chosen PEFT method. Understanding model architecture and fine-tuning techniques is also essential.</p>"
+        },
+        "group": "PEFT"
       },
       {
         "media": {
@@ -51,9 +195,72 @@
           "day": "23"
         },
         "text": {
-          "headline": "Re-inforcement Learning with Human feedback",
+          "headline": "Re-inforcement Learning with Human feedback (RLHF)",
           "text": "<p>Reinforcement Learning with Human Feedback (RLHF) is an advanced AI technique where machine learning models are trained to make decisions based on both algorithmic rewards and human guidance. This approach enhances the AI's ability to learn complex tasks by incorporating human expertise and preferences, resulting in more intuitive and effective decision-making processes. RLHF is particularly valuable in applications like personalized recommendations, autonomous systems, and natural language processing, where aligning AI behavior with human values and expectations is crucial for success. </p>"
         }
+      },
+      {
+        "media": {
+          "url": "/images/adv4.jpg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "24"
+        },
+        "text": {
+          "headline": "Advantages",
+          "text": "<p>RLHF improves the alignment of AI models with human intentions, leading to more reliable and safe outputs. It allows for dynamic adjustments based on human judgment, which can refine model performance beyond what automated metrics alone could achieve.</p>"
+        },
+        "group": "RLHF"
+      },
+      {
+        "media": {
+          "url": "/images/dis3.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "25"
+        },
+        "text": {
+          "headline": "Disadvantages",
+          "text": "<p>RLHF can be resource-intensive, requiring significant human involvement and time. There’s also a risk of introducing human biases into the model, which can affect the fairness and neutrality of the AI's decisions.</p>"
+        },
+        "group": "RLHF"
+      },
+      {
+        "media": {
+          "url": "/images/use3.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "26"
+        },
+        "text": {
+          "headline": "Ideal Use Cases",
+          "text": "<p>RLHF is ideal for applications where human values and ethical considerations are critical, such as in content moderation, personalized recommendations, and sensitive decision-making systems like medical diagnosis tools. Use RLHF when aligning the model with nuanced human preferences is essential and when automated metrics fall short in ensuring the quality of outcomes. It’s particularly valuable in domains requiring ethical judgment and user safety considerations.</p>"        },
+        "group": "RLHF"
+      },
+      {
+        "media": {
+          "url": "/images/pre1.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "27"
+        },
+        "text": {
+          "headline": "Prerequisites",
+          "text": "<p>Before implementing RLHF, you need a baseline model trained via traditional reinforcement learning, access to human experts for feedback, and tools for integrating and analyzing this feedback during the training process.</p>"
+        },
+        "group": "RLHF"
       },
       {
         "media": {
@@ -63,12 +270,92 @@
         "start_date": {
           "year": "2024",
           "month": "06",
-          "day": "23"
+          "day": "28"
         },
         "text": {
-          "headline": "Re-inforcement Learning with Artifitial feedback",
+          "headline": "Re-inforcement Learning with Artifitial feedback (RLAF)",
           "text": "<p>Reinforcement Learning with artificial feedback is a cutting-edge approach in machine learning that empowers systems to learn and adapt through simulated rewards and penalties. This method allows AI models to optimize decision-making processes by receiving artificial feedback in environments where real-world feedback might be scarce, costly, or slow. It's particularly effective in complex scenarios like autonomous driving, robotics, and game playing, where the AI continuously refines its strategies to achieve optimal outcomes. By leveraging artificial feedback, businesses can accelerate innovation, improve efficiency, and reduce the risks associated with real-world testing.</p>"
         }
+      },
+      {
+        "media": {
+          "url": "/images/com.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "06",
+          "day": "30"
+        },
+        "text": {
+          "headline": "How RLAF Differs from RLHF",
+          "text": "<p>Unlike RLHF, where human input guides the model’s learning process, RLAF relies on another AI model to provide feedback. This difference allows RLAF to scale more efficiently but may lack the nuanced understanding and ethical considerations that human feedback can provide.</p>"
+        },
+        "group": "RLAF"
+      },
+      {
+        "media": {
+          "url": "/images/adv3.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "07",
+          "day": "01"
+        },
+        "text": {
+          "headline": "Advantages",
+          "text": "<p>RLAF offers significant scalability, as it automates the feedback process, enabling rapid training of models without the need for extensive human involvement. It’s also cost-effective, reducing the need for human labor and accelerating the training pipeline.</p>"
+        },
+        "group": "RLAF"
+      },
+      {
+        "media": {
+          "url": "/images/dis4.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "07",
+          "day": "02"
+        },
+        "text": {
+          "headline": "Disadvantages",
+          "text": "<p>The primary disadvantage of RLAF is the potential lack of depth in the feedback, as AI-generated feedback might miss nuances that human judgment provides. Additionally, errors in the feedback model can propagate, leading to suboptimal or biased outcomes.</p>"
+        },
+        "group": "RLAF"
+      },
+      {
+        "media": {
+          "url": "/images/use4.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "07",
+          "day": "03"
+        },
+        "text": {
+          "headline": "Ideal Use Cases",
+          "text": "<p>RLAF is ideal for scenarios where rapid scaling of AI training is necessary, such as in simulations, gaming, or environments where human-like responses can be simulated by another AI. It’s also useful in tasks where human feedback is impractical or too costly.Use RLAF when you need to scale training processes quickly and when human feedback is not feasible due to time, cost, or availability constraints. It’s particularly useful when the feedback model is already well-tuned for the task at hand.</p>"
+        },
+        "group": "RLAF"
+      },
+      {
+        "media": {
+          "url": "/images/pre2.jpeg",
+          "credit": "image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "07",
+          "day": "05"
+        },
+        "text": {
+          "headline": "Prerequisites",
+          "text": "<p>Implementing RLAF requires a pre-existing, well-trained AI model to generate feedback, a robust environment for model training, and the ability to monitor and correct any biases or errors that may arise from the artificial feedback process.</p>"
+        },
+        "group": "RLAF"
       }
     ]
 }

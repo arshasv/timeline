@@ -57,12 +57,76 @@
     },
     {
       "media": {
+        "url": "/images/adv5.jpeg",
+        "credit": "image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "07",
+        "day": "29"
+      },
+      "text": {
+        "headline": "Advantages",
+        "text": "<p>Audio generation allows for the creation of high-quality audio content at scale, saving time and resources. It enables personalized and dynamic audio experiences, such as customizing voices in TTS systems. Additionally, it opens new creative possibilities in music production and content creation.</p>"
+      },
+      "group": "Audio Generation"
+    },
+    {
+      "media": {
+        "url": "/images/dis.jpeg",
+        "credit": "image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "08",
+        "day": "01"
+      },
+      "text": {
+        "headline": "Disadvantages",
+        "text": "<p>Despite its advantages, audio generation can face issues with naturalness and emotional expression, particularly in TTS systems. The technology may also require significant computational power and expertise to produce high-quality results, limiting accessibility for smaller projects.</p>"
+      },
+      "group": "Audio Generation"
+    },
+    {
+      "media": {
+        "url": "/images/lim2.jpeg",
+        "credit": "image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "08",
+        "day": "02"
+      },
+      "text": {
+        "headline": "Limitations",
+        "text": "<p>Limitations of audio generation include difficulties in replicating human-like intonation and expressiveness, which can lead to audio that feels artificial or monotonous. Additionally, there may be ethical concerns regarding the use of generated audio, especially in deepfake scenarios.</p>"
+      },
+      "group": "Audio Generation"
+    },
+    {
+      "media": {
+        "url": "/images/use.jpeg",
+        "credit": "image from ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "08",
+        "day": "03"
+      },
+      "text": {
+        "headline": "Use Cases",
+        "text": "<p>Audio generation is widely used in voice assistants, automated customer service, accessibility tools (like screen readers), and content creation (e.g., podcasts, audiobooks, and music production). It's also utilized in video games and virtual environments to create immersive soundscapes.</p>"
+      },
+      "group": "Audio Generation"
+    },
+    {
+      "media": {
         "url": "/images/challenge.jpeg",
         "credit": ""
       },
       "start_date": {
         "year": "2024",
-        "month": "07",
+        "month": "08",
         "day": "22"
       },
       "text": {

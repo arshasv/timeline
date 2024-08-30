@@ -1,0 +1,44 @@
+{
+  "title": {
+    "media": {
+      "url": "/images/str.png",
+      "credit": "Imagen generada por Stable Diffusion"
+    },
+    "text": {
+      "headline": "Transmisión",
+      "text": "<p>Los LLM pueden tardar mucho tiempo en generar respuestas, especialmente para contenido extenso. Las aplicaciones tradicionales recuperan datos de bases de datos rápidamente (en milisegundos), pero los LLM pueden tardar mucho más (por ejemplo, 45-50 segundos para una revisión de desempeño usando GPT-4). Esperar a que se complete toda la generación puede frustrar a los usuarios y afectar negativamente la experiencia del usuario.</p>"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "/images/fast.png",
+        "credit": "Imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "05",
+        "day": "20"
+      },
+      "text": {
+        "headline": "Fast API",
+        "text": "<p>FastAPI es un marco web moderno, rápido y fácil de usar para construir APIs con Python. FastAPI genera documentación interactiva de la API a partir de tu código, haciendo que el desarrollo y las pruebas sean más eficientes. FastAPI tiene una clase de transmisión, donde puede transmitir las respuestas de las solicitudes que recibe.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/challenges.jpeg",
+        "credit": "Imagen generada por Ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "05",
+        "day": "24"
+      },
+      "text": {
+        "headline": "Desafíos",
+        "text": "<p>La transmisión en los modelos de lenguaje grandes (LLM) presenta varios desafíos. Implementar la transmisión puede ser complejo, y los errores o interrupciones son difíciles de manejar, particularmente en aplicaciones críticas. Mantener la coherencia y el contexto durante interacciones extendidas es un desafío, a menudo lo que lleva a respuestas fragmentadas o menos precisas. Además, transmitir grandes cantidades de datos puede resultar en información superpuesta o redundante, lo que puede confundir a los usuarios. El procesamiento continuo requerido también puede aumentar la carga computacional, afectando potencialmente el rendimiento, especialmente durante períodos de alta demanda.</p>"
+      }
+    }
+  ]
+}

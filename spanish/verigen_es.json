@@ -1,0 +1,206 @@
+{
+  "title": {
+    "media": {
+      "url": "/images/verigen.jpeg",
+      "credit": "Imagen generada por stable diffusion"
+    },
+    "text": {
+      "headline": "VeriGen",
+      "text": "<p>El proyecto VeriLog Code Generation representa un avance significativo en la aplicación de la IA en el lugar de trabajo, particularmente para la generación de código Verilog para el diseño de chips, especialmente para el módulo CNN de 16 bits que consta de un sumador y un multiplicador de 16 bits. Al integrar el modelo GPT-3.5 Turbo en Azure Open AI para respuestas contextualmente relevantes, el chatbot está diseñado para la generación de código Verilog. Esto es útil para los diseñadores de chips e ingenieros de verificación para diseñar y verificar el chip utilizando Verilog y desplegarlo en una aplicación web.</p>"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "/images/ollama.png",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "01",
+        "day": "02"
+      },
+      "text": {
+        "headline": "Ollama",
+        "text": "<p>Ollama es un marco potente diseñado para la generación de código eficiente y escalable, que permite a los desarrolladores automatizar tareas repetitivas de codificación y agilizar el desarrollo de software. Ideal para integrarse con los modernos pipelines CI/CD, Ollama utiliza algoritmos avanzados de IA para generar, optimizar y refactorizar fragmentos de código en varios lenguajes de programación. Su interfaz intuitiva y su API robusta facilitan su personalización e implementación en diferentes proyectos, mejorando la productividad mientras se mantiene una alta calidad del código. Perfecto para equipos que buscan acelerar los ciclos de desarrollo, reducir errores y enfocarse más en la resolución creativa de problemas.</p>",
+        "group": "Frameworks"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/lm.jpeg",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "01",
+        "day": "20"
+      },
+      "text": {
+        "headline": "LM Studio",
+        "text": "<p>LM Studio es un marco potente diseñado para agilizar el proceso de generación de código para sitios web. Aprovecha los modelos de aprendizaje automático para generar automáticamente código optimizado y de alta calidad basado en las entradas del usuario, reduciendo el tiempo de desarrollo y minimizando errores. Con su interfaz intuitiva, los desarrolladores pueden prototipar, personalizar y desplegar componentes web rápidamente, lo que lo hace ideal tanto para principiantes como para profesionales experimentados. El marco admite varios lenguajes de programación e integra a la perfección con las herramientas de desarrollo populares, asegurando un flujo de trabajo fluido desde el concepto hasta el despliegue.</p>",
+        "group": "Frameworks"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/azure.png",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "21"
+      },
+      "text": {
+        "headline": "Generación de código Verilog",
+        "text": "<p>La generación de código Verilog se logra sin problemas utilizando GPT-3.5 a través de la API de Azure AI Studio, proporcionando scripts de lenguaje de descripción de hardware eficientes y precisos adaptados a sus necesidades de diseño.</p>",
+        "group": "Generación de código Verilog"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/3.5.jpeg",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "21"
+      },
+      "text": {
+        "headline": "GPT 3.5 Turbo",
+        "text": "<p>Nuestra plataforma aprovecha las capacidades avanzadas del modelo GPT-3.5 para automatizar la generación de código Verilog y testbenches. Esta herramienta está diseñada para asistir a ingenieros de hardware, diseñadores y estudiantes al producir rápidamente fragmentos de código Verilog precisos y optimizados para circuitos digitales, junto con testbenches correspondientes para validar el diseño. Ya sea que necesite prototipar, depurar o aprender Verilog, nuestra solución impulsada por IA simplifica el proceso, ahorrando tiempo y reduciendo errores en el diseño y simulación de hardware.</p>",
+        "group": "Generación de código Verilog"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/gpt.png",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "02"
+      },
+      "text": {
+        "headline": "GPT 4",
+        "text": "<p>Aproveche el poder de GPT-4 para agilizar su proceso de diseño de Verilog. Este modelo puede generar código Verilog y testbenches correspondientes, lo que lo hace ideal para diseñadores de circuitos digitales, educadores y estudiantes. Al proporcionar especificaciones de diseño de alto nivel, GPT-4 puede crear código Verilog robusto y optimizado y testbenches, reduciendo el tiempo de desarrollo y mejorando la productividad. Ya sea que esté diseñando circuitos combinacionales simples o sistemas secuenciales complejos, esta herramienta asegura precisión y eficiencia en sus proyectos HDL.</p>",
+        "group": "Generación de código Verilog"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/pc.png",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "27"
+      },
+      "text": {
+        "headline": "codellama 34b",
+        "text": "<p>Codellama agiliza el proceso de diseño y verificación en el desarrollo de hardware digital al generar automáticamente código Verilog y testbenches correspondientes. Esta herramienta impulsada por IA asiste a ingenieros y desarrolladores en la creación de descripciones de hardware eficientes y sin errores y entornos de prueba, reduciendo significativamente el tiempo y esfuerzo requeridos para la codificación manual y depuración. Ideal tanto para profesionales experimentados como para principiantes, Codellama acelera el camino desde el concepto hasta el silicio, asegurando diseños digitales de alta calidad y confiables.</p>",
+        "group": "Generación de código Verilog"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/pc.png",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "28"
+      },
+      "text": {
+        "headline": "codebooga 34b",
+        "text": "<p>Genera fácilmente código Verilog y testbenches correspondientes con el poderoso modelo de CodeBooga. Ya sea que esté diseñando circuitos digitales o probando sus diseños HDL, nuestra herramienta agiliza el proceso, ayudándole a crear y validar rápidamente sus módulos Verilog. Ideal para ingenieros, estudiantes y profesionales que buscan mejorar la productividad y precisión en proyectos de diseño digital.</p>",
+        "group": "Generación de código Verilog"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/pc.png",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "03",
+        "day": "30"
+      },
+      "text": {
+        "headline": "phined-codellama 34b",
+        "text": "<p>Phined-CodeLlama es un modelo de IA de vanguardia diseñado para agilizar la generación de código Verilog y testbenches. Adaptado para ingenieros y desarrolladores de hardware, este modelo automatiza la creación de código Verilog eficiente y confiable, reduciendo significativamente el tiempo de desarrollo. Ya sea que esté diseñando circuitos digitales o verificando sistemas complejos, Phined-CodeLlama asegura precisión y optimiza su flujo de trabajo, permitiendo iteraciones más rápidas y una mayor productividad.</p>",
+        "group": "Generación de código Verilog"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/icars.jpeg",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "22"
+      },
+      "text": {
+        "headline": "Herramienta Icarus Verilog",
+        "text": "<p>Icarus Verilog está destinado a funcionar principalmente como un simulador, aunque sus capacidades de síntesis están mejorando. El compilador de Icarus Verilog normalmente compila un programa Verilog en un archivo ejecutable que puede ejecutarse para realizar la simulación real.</p>",
+        "group": "Icarus"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/icars.jpeg",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "04",
+        "day": "24"
+      },
+      "text": {
+        "headline": "Integración de Icarus",
+        "text": "<p>Integre la herramienta de código abierto Icarus para verificar sin problemas el código Verilog y los testbenches generados. Automatice el proceso de verificación para una mayor eficiencia y precisión en su flujo de trabajo de diseño de chips.</p>",
+        "group": "Icarus"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/icars.jpeg",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "05",
+        "day": "02"
+      },
+      "text": {
+        "headline": "Automatización de Icarus",
+        "text": "<p>Icarus Verilog, una herramienta de simulación Verilog de código abierto ampliamente utilizada, puede ser automatizada utilizando scripts de shell para agilizar el flujo de trabajo en el diseño y la verificación de hardware. Al aprovechar los scripts de shell, los usuarios pueden automatizar tareas como la compilación de archivos Verilog, la ejecución de simulaciones y la gestión de salidas, haciendo que el proceso de desarrollo sea más eficiente. Esta automatización reduce la intervención manual, minimiza errores y asegura resultados de simulación consistentes, lo que lo hace ideal para proyectos a gran escala y escenarios de prueba repetitivos. Perfecto tanto para principiantes como para usuarios avanzados, este enfoque mejora la productividad en proyectos de diseño digital.</p>",
+        "group": "Icarus"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/ch.png",
+        "credit": "imagen de Google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "05",
+        "day": "03"
+      },
+      "text": {
+        "headline": "Desafíos",
+        "text": "<p>Durante el desarrollo del proyecto, se encontraron varios desafíos: La limitada conciencia de las herramientas de VHDL de código abierto disponibles dificultó la selección de recursos adecuados. La falta de tutoriales y documentación completa hizo que fuera difícil entender y utilizar las herramientas de manera efectiva. La insuficiencia de RAM del sistema restringió la capacidad para manejar simulaciones y procesos complejos de manera fluida. El acceso restringido a recursos de GPU en plataformas en línea obstaculizó el rendimiento y la eficiencia durante los cálculos intensivos. Estos obstáculos se abordaron mediante soluciones y soluciones innovadoras, contribuyendo al aprendizaje y éxito general del proyecto.</p>",
+        "group": "Desafíos"
+      }
+    }
+  ]
+}

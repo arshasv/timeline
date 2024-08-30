@@ -1,0 +1,267 @@
+{
+  "title": {
+    "media": {
+      "url": "/images/Fine.jpeg",
+      "credit": "Imagen generada por Stable Diffusion"
+    },
+    "text": {
+      "headline": "Ajuste Fino",
+      "text": "<p>Los agentes de IA construidos sobre modelos de lenguaje de gran tamaño controlan el camino para resolver un problema complejo. Por lo general, pueden actuar según los comentarios para refinar su plan de acción, una capacidad que puede mejorar el rendimiento y ayudarlos a realizar tareas más sofisticadas.</p>"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "/images/ins.jpeg",
+        "credit": "imagen de ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "06"
+      },
+      "text": {
+        "headline": "Ajuste Fino de Instrucciones",
+        "text": "<p>El ajuste fino de instrucciones es una técnica que mejora el rendimiento de los modelos de IA entrenándolos en instrucciones o tareas específicas. Este proceso permite que los modelos comprendan y sigan mejor las órdenes del usuario, lo que resulta en respuestas más precisas y conscientes del contexto. Ideal para mejorar bots de atención al cliente, herramientas de generación de contenido y asistentes digitales personalizados, el ajuste fino de instrucciones asegura que los sistemas de IA puedan realizar tareas especializadas con mayor precisión y relevancia.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/adv1.jpeg",
+        "credit": "imagen de ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "07"
+      },
+      "text": {
+        "headline": "Ventajas",
+        "text": "<p>La principal ventaja del ajuste fino de instrucciones es su capacidad para mejorar el rendimiento del modelo en tareas específicas al mejorar su comprensión del lenguaje y contexto específicos de la tarea. También permite la personalización, haciendo que el modelo sea más hábil en el manejo de dominios nicho o especializados, lo que lleva a resultados más confiables.</p>"
+      },
+      "group": "Ajuste Fino de Instrucciones"
+    },
+    {
+      "media": {
+        "url": "/images/dis1.jpeg",
+        "credit": "imagen de ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "08"
+      },
+      "text": {
+        "headline": "Desventajas",
+        "text": "<p>El ajuste fino de instrucciones puede ser intensivo en recursos, requiriendo una gran cantidad de datos y poder computacional. También puede llevar a un sobreajuste, donde el modelo se vuelve demasiado adaptado a los datos de ajuste fino, perdiendo potencialmente su capacidad de generalización. Además, encontrar conjuntos de datos de alta calidad y específicos de la tarea puede ser un desafío.</p>"
+      },
+      "group": "Ajuste Fino de Instrucciones"
+    },
+    {
+      "media": {
+        "url": "/images/ins1.jpeg",
+        "credit": "imagen de ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "10"
+      },
+      "text": {
+        "headline": "Casos de Uso Ideales",
+        "text": "<p>El ajuste fino de instrucciones es ideal para escenarios donde se requiere alta precisión en tareas especializadas, como bots de atención al cliente, herramientas de diagnóstico médico o cualquier aplicación donde la ejecución precisa de tareas sea crítica. También es beneficioso para adaptar modelos a industrias o dominios específicos.</p>"
+      },
+      "group": "Ajuste Fino de Instrucciones"
+    },
+    {
+      "media": {
+        "url": "/images/pre3.jpeg",
+        "credit": "imagen de ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "12"
+      },
+      "text": {
+        "headline": "Requisitos Previos",
+        "text": "<p>Antes de embarcarse en el ajuste fino de instrucciones, es esencial tener un conjunto de datos bien preparado con instrucciones y ejemplos claros y específicos de la tarea. Además, se requiere acceso a recursos computacionales suficientes, como GPUs, para el proceso de ajuste fino. También se recomienda estar familiarizado con el aprendizaje automático y los marcos de ajuste fino.</p>"
+      },
+      "group": "Ajuste Fino de Instrucciones"
+    },
+    {
+      "media": {
+        "url": "/images/pef.jpeg",
+        "credit": "imagen de ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "14"
+      },
+      "text": {
+        "headline": "Ajuste Fino Eficiente en Parámetros (PEFT)",
+        "text": "<p>El ajuste fino eficiente en parámetros (PEFT) es una técnica avanzada que permite la adaptación de grandes modelos preentrenados a tareas específicas con recursos computacionales mínimos. Al ajustar solo un pequeño subconjunto de los parámetros del modelo, PEFT reduce drásticamente el tiempo, la memoria y los datos necesarios para el ajuste fino, lo que lo hace ideal para desplegar IA en entornos con recursos limitados. Este enfoque garantiza un alto rendimiento mientras mantiene la eficiencia, lo que lo convierte en una solución atractiva para empresas que buscan aprovechar modelos de IA en múltiples tareas sin incurrir en costos significativos.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/meth.jpeg",
+        "credit": "imagen de ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "15"
+      },
+      "text": {
+        "headline": "Métodos PEFT",
+        "text": "<p>PEFT incluye técnicas como Adapters, Low-Rank Adaptation (LoRA), Prefix Tuning y Prompt Tuning. Estos métodos permiten un ajuste fino eficiente al modificar partes específicas del modelo en lugar de todo el modelo.</p>"
+      },
+      "group": "PEFT"
+    },
+    {
+      "media": {
+        "url": "/images/use2.jpeg",
+        "credit": "imagen de ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "16"
+      },
+      "text": {
+        "headline": "Casos de Uso Ideales",
+        "text": "<p>PEFT es ideal para escenarios donde se necesitan ajustes específicos de tareas sin una sobrecarga computacional extensa. Es especialmente útil para tareas de PLN en dominios específicos, donde pequeños ajustes pueden llevar a mejoras significativas en el rendimiento.</p>"
+      },
+      "group": "PEFT"
+    },
+    {
+      "media": {
+        "url": "/images/adv2.jpeg",
+        "credit": "imagen de ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Ventajas",
+        "text": "<p>PEFT ofrece ahorros computacionales, reduce el uso de memoria y permite un ajuste fino más rápido con menos recursos. También mantiene la capacidad de generalización del modelo base mientras se enfoca en mejoras específicas de la tarea.</p>"
+      },
+      "group": "PEFT"
+    },
+    {
+      "media": {
+        "url": "/images/dis2.jpeg",
+        "credit": "imagen de ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "18"
+      },
+      "text": {
+        "headline": "Desventajas",
+        "text": "<p>Las principales desventajas de PEFT incluyen el rendimiento potencialmente subóptimo en comparación con el ajuste fino completo y la necesidad de una cuidadosa selección de los parámetros a ajustar para evitar degradar las capacidades del modelo.</p>"
+      },
+      "group": "PEFT"
+    },
+    {
+      "media": {
+        "url": "/images/pre.jpeg",
+        "credit": "imagen de ideogram"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "19"
+      },
+      "text": {
+        "headline": "Requisitos Previos",
+        "text": "<p>PEFT requiere un LLM preentrenado, conocimiento de la tarea o dominio específico y familiaridad con el método PEFT elegido. También es esencial comprender la arquitectura del modelo y las técnicas de ajuste fino.</p>"
+      },
+      "group": "PEFT"
+    },
+    {
+      "media": {
+        "url": "/images/rlhf.jpeg",
+        "credit": "imagen de google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "23"
+      },
+      "text": {
+        "headline": "Aprendizaje por Refuerzo con Retroalimentación Humana (RLHF)",
+        "text": "<p>El Aprendizaje por Refuerzo con Retroalimentación Humana (RLHF) es una técnica avanzada de IA que combina el aprendizaje por refuerzo con la retroalimentación humana para alinear los modelos de IA con los valores humanos. En RLHF, los modelos de IA reciben recompensas basadas en la retroalimentación humana, permitiéndoles aprender comportamientos preferidos o alineados con los valores humanos. Este enfoque es particularmente valioso en la mejora de la seguridad y la alineación de los modelos de IA, asegurando que sus acciones sean coherentes con las expectativas humanas.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "/images/adv3.jpeg",
+        "credit": "imagen de google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "24"
+      },
+      "text": {
+        "headline": "Ventajas",
+        "text": "<p>RLHF proporciona un enfoque poderoso para la alineación de IA, mejorando la seguridad y reduciendo el riesgo de comportamientos inesperados. Al incorporar la retroalimentación humana, permite que los modelos se adapten mejor a las expectativas humanas.</p>"
+      },
+      "group": "RLHF"
+    },
+    {
+      "media": {
+        "url": "/images/dis3.jpeg",
+        "credit": "imagen de google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "25"
+      },
+      "text": {
+        "headline": "Desventajas",
+        "text": "<p>RLHF puede ser intensivo en recursos, requiriendo la participación humana para proporcionar retroalimentación continua. También existe el riesgo de sesgo humano en la retroalimentación, que puede influir en el comportamiento del modelo.</p>"
+      },
+      "group": "RLHF"
+    },
+    {
+      "media": {
+        "url": "/images/use1.jpeg",
+        "credit": "imagen de google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "26"
+      },
+      "text": {
+        "headline": "Casos de Uso Ideales",
+        "text": "<p>RLHF es ideal para aplicaciones donde la alineación con valores humanos es crucial, como en la moderación de contenido, la toma de decisiones en medicina y la gobernanza de IA. Es particularmente útil en escenarios donde se requiere una toma de decisiones matizada y ética.</p>"
+      },
+      "group": "RLHF"
+    },
+    {
+      "media": {
+        "url": "/images/pre1.jpeg",
+        "credit": "imagen de google"
+      },
+      "start_date": {
+        "year": "2024",
+        "month": "06",
+        "day": "27"
+      },
+      "text": {
+        "headline": "Requisitos Previos",
+        "text": "<p>Para implementar RLHF, se necesita un entorno de aprendizaje por refuerzo, acceso a un modelo preentrenado y la capacidad de recopilar retroalimentación humana. También es esencial tener un sistema para integrar la retroalimentación en el proceso de entrenamiento del modelo.</p>"
+      },
+      "group": "RLHF"
+    }
+  ]
+}
