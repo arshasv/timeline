@@ -6,7 +6,7 @@
     },
     "text": {
       "headline": "Agents",
-      "text": "<p>AI agents built on large language models control the path to solving a complex problem. They can typically act on feedback to refine their plan of action, a capability that can improve performance and help them accomplish more sophisticated tasks.</p>"
+      "text": "<p>AI agents built on large language models control the path to solving a complex problem. Agents can understand natural language, make decisions, and take actions to complete tasks automatically.They can typically act on feedback to refine their plan of action, a capability that can improve performance and help them accomplish more sophisticated tasks.</p>"
     }
   },
     "events": [
@@ -22,7 +22,7 @@
         },
         "text": {
           "headline": "crewai", 
-          "text": "<p>CrewAI is a universal multi agent framework that allows for all agents to work together to automate tasks and solve problems.</p>"
+          "text": "<p>CrewAI is a universal multi agent framework that allows for all agents to work together to automate tasks and solve problems. crewAI is an open source multiagent orchestration framework created by João Moura. This Python-based framework leverages artificial intelligence (AI) collaboration by orchestrating role-playing autonomous AI agents that work together as a cohesive assembly or “crew” to complete tasks.</p>"
         }
       },
       {
@@ -37,7 +37,7 @@
         },
         "text": {
           "headline": "AutoGen",
-          "text": "<p>AutoGen provides multi-agent conversation framework as a high-level abstraction. With this framework, one can conveniently build LLM workflows.</p>"
+          "text": "<p>AutoGen is an open-source programming framework for building AI agents and facilitating cooperation among multiple agents to solve tasks. AutoGen aims to provide an easy-to-use and flexible framework for accelerating development and research on agentic AI, like PyTorch for Deep Learning.</p>"
         }
       },
       {
@@ -51,8 +51,8 @@
           "day": "23"
         },
         "text": {
-          "headline": "LangChain",
-          "text": "<p>LangChain provides tools and abstractions to improve the customization, accuracy, and relevancy of the information the models generate. </p>"
+          "headline": "LangGraph",
+          "text": "<p>LangGraph is a stateful, orchestration framework that brings added control to agent workflows. LangGraph allows you to define flows that involve cycles, essential for most agentic architectures, differentiating it from DAG-based solutions. As a very low-level framework, it provides fine-grained control over both the flow and state of your application, crucial for creating reliable agents. </p>"
         }
       }
     ]

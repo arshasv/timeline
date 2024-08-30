@@ -6,7 +6,7 @@
     },
     "text": {
       "headline": "Sreaming",
-      "text": "<p>Experience seamless content delivery with our text streaming technology. Instantly stream text-based content in real-time, ensuring your audience stays engaged with uninterrupted, dynamic updates tailored to their needs.</p>"
+      "text": "<p>LLMs can take significant time to generate responses, especially for lengthy content. Traditional applications retrieve data from databases quickly (within milliseconds), but LLMs can take much longer (e.g., 45-50 seconds for a performance review using GPT-4). Waiting for the entire generation to complete can frustrate users and negatively impact user experience.</p>"
     }
   },
   "events": [
@@ -22,7 +22,22 @@
         },
         "text": {
           "headline": "Fast API",
-          "text": "<p>FastAPI is a modern, fast, and easy-to-use web framework for building APIs with Python.FastAPI generates interactive API documentation from your code, making development and testing more efficient.</p>"
+          "text": "<p>FastAPI is a modern, fast, and easy-to-use web framework for building APIs with Python.FastAPI generates interactive API documentation from your code, making development and testing more efficient. Fast api does have a streaming class, where it can stream the responses of the request it gets.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "/images/challenges.jpeg",
+          "credit": "Generated image from ideogram"
+        },
+        "start_date": {
+          "year": "2024",
+          "month": "05",
+          "day": "24"
+        },
+        "text": {
+          "headline": "Challeges",
+          "text": "<p>Streaming in large language models (LLMs) presents several challenges. Implementing streaming can be complex, and mistakes or interruptions are difficult to manage, particularly in critical applications. Maintaining coherence and context over extended interactions is challenging, often leading to fragmented or less accurate responses. Additionally, streaming large amounts of data may result in overlapping or redundant information, confusing users. The continuous processing required can also increase the computational load, potentially affecting performance, especially during periods of high demand.</p>"
         }
       }
     ]
