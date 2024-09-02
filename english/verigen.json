@@ -199,8 +199,7 @@
         "text": {
           "headline": "Challenges",
           "text": "<p>During the development of the project, several challenges were encountered:  The limited awareness of available open-source VHDL tools impeded the selection of suitable resources.A shortage of comprehensive tutorials and documentation made it difficult to fully understand and utilize the tools effectively. Insufficient system RAM constrained the ability to handle complex simulations and processes smoothly. Restricted access to GPU resources on online platforms hindered performance and efficiency during intensive computations.These obstacles were addressed through innovative solutions and workarounds, contributing to the overall learning and success of the project.</p>"
-        },
-        "group": "Challenges"
+        }
       }
     ]
 }

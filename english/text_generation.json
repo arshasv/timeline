@@ -23,7 +23,8 @@
         "text": {
           "headline": "Models",
           "text": "<p>A large language model is a computational model capable of language generation or other natural language processing tasks. As language models, LLMs acquire these abilities by learning statistical relationships from vast amounts of text during a self-supervised and semi-supervised training process.</p>"
-        }
+        },
+        "group" : "Models"
       },
       {
         "media": {
@@ -102,7 +103,8 @@
         "text": {
           "headline": "Frameworks",
           "text": "<p>Text generation frameworks empower developers to create dynamic and engaging content through AI. These frameworks provide robust tools and algorithms that generate human-like text, enabling applications ranging from automated content creation to conversational agents. By leveraging advanced natural language processing techniques, text generation frameworks streamline the process of producing high-quality text, making it easier to build intelligent, responsive, and context-aware applications.</p>"
-        }
+        },
+        "group" : "Frameworks"
       },
       {
         "media": {
@@ -149,7 +151,8 @@
         "text": {
           "headline": "Platform as Services",
           "text": "<p>Unlock the power of words with our Platform-as-a-Service for Text Generation. Seamlessly create high-quality content, from articles to creative writing, using advanced AI models. Our platform offers flexibility, scalability, and ease of integration, empowering your business to generate compelling text at scale.</p>"
-        }
+        },
+        "group" : "Platform as Service"
       },
       {
         "media": {

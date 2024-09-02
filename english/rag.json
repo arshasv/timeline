@@ -23,7 +23,8 @@
       "text": {
         "headline": "Models",
         "text": "<p>A large language model is a computational model capable of language generation or other natural language processing tasks. As language models, LLMs acquire these abilities by learning statistical relationships from vast amounts of text during a self-supervised and semi-supervised training process.</p>"
-      }
+      },
+      "group" : "Models"
     },
       {
         "media": {
