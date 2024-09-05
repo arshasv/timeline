@@ -34,13 +34,13 @@
             font-weight: bold;
         }
 
-        #language-toggle, #back-button {
+        #controls {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 10px; /* Adjust the spacing between the button and dropdown */
         }
 
-        #language-toggle select, #back-button button {
+        #back-button button, #language-toggle select {
             padding: 8px 16px;
             font-size: 16px;
             border: none;
@@ -50,12 +50,17 @@
             border-radius: 4px;
         }
 
-        #language-toggle select:hover, #back-button button:hover {
+        #back-button button:hover, #language-toggle select:hover {
             background-color: #0056b3;
         }
 
         #back-button {
             display: none;
+        }
+
+        #back-button button, #language-toggle select {
+            display: inline-block; /* Ensure both elements behave like inline elements */
+            white-space: nowrap;   /* Prevent wrapping */
         }
 
         /* Card styles */
@@ -107,7 +112,7 @@
     <!-- Header Section -->
     <header>
         <h1>Genesis Forge</h1>
-        <div>
+        <div id="controls">
             <!-- Language Toggle Dropdown -->
             <div id="language-toggle">
                 <select onchange="switchLanguage(this.value)">
@@ -117,10 +122,11 @@
             </div>
             <!-- Back Button -->
             <div id="back-button">
-                <button onclick="goBack()">Back</button>
+                <button onclick="goBack()">Home</button>
             </div>
         </div>
     </header>
+    
 
     <!-- Card Container -->
     <div class="card-container" id="card-container"></div>
