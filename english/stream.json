@@ -5,7 +5,7 @@
       "credit": "Generated image from stable diffusion"
     },
     "text": {
-      "headline": "Sreaming",
+      "headline": "Streaming",
       "text": "<p>LLMs can take significant time to generate responses, especially for lengthy content. Traditional applications retrieve data from databases quickly (within milliseconds), but LLMs can take much longer (e.g., 45-50 seconds for a performance review using GPT-4). Waiting for the entire generation to complete can frustrate users and negatively impact user experience.</p>"
     }
   },
